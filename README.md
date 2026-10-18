@@ -55,3 +55,11 @@ The experience works without WebGL via its perspective CSS3D screen layer, with 
 ## Validation
 
 Playwright covers wheel limits, spatial screen entry, all ten articles, independent article scrolling, return-state restoration, browser Back, mobile touch input, deep links and reduced motion. A visual preview is saved in gallery-preview.png; screenshots are development artifacts and are not part of the production build.
+
+## GitHub Pages deployment
+
+The project is published at https://zagdkhuu-stack.github.io/mongol-history/.
+Vite uses `/mongol-history/` as its base; dynamically rendered images use `src/asset-url.js`.
+The `.github/workflows/deploy.yml` workflow runs `npm ci` and `npm run build`, uploads `dist`, and deploys it to GitHub Pages on each push to `main`. It can also be run manually from Actions. Pages must use **GitHub Actions** as its deployment source.
+
+To check the actual production build locally, run `npm run build` followed by `node scripts/verify-pages.mjs`. To check the published website, run `node scripts/verify-pages.mjs https://zagdkhuu-stack.github.io/mongol-history/`.

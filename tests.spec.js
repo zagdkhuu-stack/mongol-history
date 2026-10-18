@@ -1,4 +1,4 @@
-﻿import { test, expect } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 import chapters from './src/pdf-chapters.json' with { type: 'json' };
 test('rapid topic changes and artifact changes stay stationary and synchronized',async({page})=>{
  const errors=[];page.on('pageerror',error=>errors.push(error.message));
@@ -14,7 +14,7 @@ test('rapid topic changes and artifact changes stay stationary and synchronized'
  });
  for(const width of [1440,1024,390]){
   await page.setViewportSize({width,height:900});
-  await page.goto('/');await expect(page.locator('#loader')).toHaveClass(/loaded/);
+  await page.goto('./');await expect(page.locator('#loader')).toHaveClass(/loaded/);
   await page.locator('#indexToggle').click();await page.locator('#indexLinks [data-topic="3"]').click();
   await page.locator('#enterTopic').click();await expect(page.locator('body')).toHaveClass(/detail-open/);
   await expect(page.locator('.museum-four')).toHaveCount(1);
@@ -69,8 +69,8 @@ test('rapid topic changes and artifact changes stay stationary and synchronized'
 });
 test('topic 04 museum selection, image viewer, keyboard and responsive layout',async({page})=>{
  const errors=[];page.on('pageerror',error=>errors.push(error.message));
- await page.goto('/#topic/topic-4');await expect(page.locator('body')).toHaveClass(/detail-open/);
- await expect(page.locator('.detail-hero>img')).toHaveAttribute('src','/assets/optimized/04.jpg');
+ await page.goto('./#topic/topic-4');await expect(page.locator('body')).toHaveClass(/detail-open/);
+ await expect(page.locator('.detail-hero>img')).toHaveAttribute('src','/mongol-history/assets/optimized/04.jpg');
  await expect(page.locator('.museum-scene')).toHaveCount(3);
  const tabs=page.locator('[data-pdf-page="8"] [role=tab]');
  await expect(tabs).toHaveCount(7);
@@ -110,7 +110,7 @@ test('topic 04 museum selection, image viewer, keyboard and responsive layout',a
 });
 test('spiral navigation, topic entry, independent scrolling, history and all ten topics',async({page})=>{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto('/');await expect(page.locator('#loader')).toHaveClass(/loaded/);
+ await page.goto('./');await expect(page.locator('#loader')).toHaveClass(/loaded/);
  await expect(page.locator('#currentNumber')).toHaveText('01');
  await page.mouse.wheel(0,1800);await expect(page.locator('#currentNumber')).toHaveText('02');
  await page.waitForTimeout(1200);await expect(page.locator('#currentNumber')).toHaveText('02');
@@ -133,7 +133,7 @@ test('spiral navigation, topic entry, independent scrolling, history and all ten
 });
 test('mobile touch, deep link, index and reduced motion',async({page})=>{
  await page.setViewportSize({width:390,height:844});await page.emulateMedia({reducedMotion:'reduce'});
- await page.goto('/#topic/topic-8');await expect(page.locator('#detail')).toBeVisible();await expect(page.locator('#detail h1')).toContainText('Бичиг');
+ await page.goto('./#topic/topic-8');await expect(page.locator('#detail')).toBeVisible();await expect(page.locator('#detail h1')).toContainText('Бичиг');
  await page.locator('.brand').click();await expect(page.locator('#detail')).toBeHidden();await expect(page.locator('#currentNumber')).toHaveText('08');
  await page.locator('#indexToggle').click();await page.locator('#indexLinks [data-topic="1"]').click();await expect(page.locator('#currentNumber')).toHaveText('02');
  await page.evaluate(()=>{const el=document.getElementById('gallery');el.dispatchEvent(new TouchEvent('touchstart',{touches:[new Touch({identifier:0,target:el,clientX:200,clientY:650})],bubbles:true}));});
@@ -145,7 +145,7 @@ test('mobile touch, deep link, index and reduced motion',async({page})=>{
 
 
 test('keyboard controls preserve native button activation and Escape returns',async({page})=>{
- await page.emulateMedia({reducedMotion:'reduce'});await page.goto('/');await expect(page.locator('#loader')).toHaveClass(/loaded/);
+ await page.emulateMedia({reducedMotion:'reduce'});await page.goto('./');await expect(page.locator('#loader')).toHaveClass(/loaded/);
  await page.locator('#enterTopic').focus();await page.keyboard.press('ArrowDown');await expect(page.locator('#currentNumber')).toHaveText('02');
  await page.keyboard.press('Enter');await expect(page.locator('#detail')).toBeVisible();
  await page.keyboard.press('Escape');await expect(page.locator('#detail')).toBeHidden();await expect(page.locator('#currentNumber')).toHaveText('02');

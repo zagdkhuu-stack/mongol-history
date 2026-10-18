@@ -1,10 +1,11 @@
 import './topic-four.css';
 import { bindAtomicSelection } from './atomic-selection.js';
+import { assetUrl } from './asset-url.js';
 
 const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const title=item=>item.text[0].replace(/^\d+\.\s*/, '');
 function imageButton(image,label){
- return `<button class="museum-image" type="button" data-inspect aria-label="${esc(label)} — Томруулж харах"><img src="${image.src}" width="${image.width}" height="${image.height}" alt="${esc(label)}" loading="lazy" decoding="async"><span aria-hidden="true">↗</span></button>`;
+ return `<button class="museum-image" type="button" data-inspect aria-label="${esc(label)} — Томруулж харах"><img src="${assetUrl(image.src)}" width="${image.width}" height="${image.height}" alt="${esc(label)}" loading="lazy" decoding="async"><span aria-hidden="true">↗</span></button>`;
 }
 function tabs(items,prefix){
  return `<div class="museum-tabs" role="tablist" aria-label="Гар урлал, үйлдвэрлэл">${items.map((item,i)=>`<button type="button" role="tab" id="${prefix}-tab-${i}" aria-controls="${prefix}-panel-${i}" aria-selected="${i===0}" tabindex="${i===0?0:-1}"><small>${String(i+1).padStart(2,'0')}</small>${esc(item.label)}</button>`).join('')}<span class="museum-indicator" aria-hidden="true"></span></div>`;

@@ -3,11 +3,12 @@ import './pdf-detail.css';
 import { renderTopicFour, initTopicFour } from './topic-four.js';
 import { imageAssociations, associatedImages } from './pdf-associations.js';
 import { bindAtomicSelection } from './atomic-selection.js';
+import { assetUrl } from './asset-url.js';
 
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function chapterFor(index) { return chapters[String(index + 1)]; }
 const paragraphs = values => values.map(value=>`<p>${escape(value)}</p>`).join('');
-const figure = (image,title='')=>`<figure><a href="${image.src}" target="_blank" rel="noopener"><img src="${image.src}" width="${image.width}" height="${image.height}" alt="${escape(title)}" loading="lazy" decoding="async"></a></figure>`;
+const figure = (image,title='')=>`<figure><a href="${assetUrl(image.src)}" target="_blank" rel="noopener"><img src="${assetUrl(image.src)}" width="${image.width}" height="${image.height}" alt="${escape(title)}" loading="lazy" decoding="async"></a></figure>`;
 function selections(section){
  const bindings=imageAssociations[section.page]?.groups;
  const items=section.crafts||(bindings?bindings.map(binding=>({text:[binding.heading,...section.groups[binding.textGroup]],images:associatedImages(section,binding.images)})):section.groups.map(text=>({text,images:[]})));
