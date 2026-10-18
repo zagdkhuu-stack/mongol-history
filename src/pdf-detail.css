@@ -1,0 +1,65 @@
+/* Only the logo remains on detail pages; the gallery header is unchanged. */
+body.detail-open .masthead{height:auto;width:auto;padding:0;left:4%;top:30px;right:auto;background:none;border:0;pointer-events:none}
+body.detail-open .masthead .brand{pointer-events:auto;text-shadow:0 2px 12px #000}
+body.detail-open .masthead .edition,body.detail-open .masthead #indexToggle{display:none}
+#detail.pdf-detail{scroll-padding-top:110px}
+#detail .pdf-chapter{width:100%;margin:0}
+#detail .pdf-section{display:block;padding:55px 6vw 45px;background:var(--ink)}
+#detail .chapter-inner{width:100%;max-width:1250px;margin:auto;border-top:1px solid #b89a6640;padding-top:35px}
+#detail .pdf-section h2{font:400 clamp(30px,3.4vw,51px)/1.2 var(--serif);color:var(--paper);max-width:950px;margin:0 0 30px;overflow-wrap:anywhere}
+#detail .pdf-section p{font-size:16px;line-height:2;color:#bbb5a8;max-width:850px;margin:0 0 22px;overflow-wrap:anywhere}
+#detail .chapter-explorer{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(0,1.6fr);gap:60px;margin-top:34px;align-items:start}
+#detail .chapter-choices{display:flex;flex-direction:column}
+#detail .chapter-choices button{display:flex;align-items:center;gap:18px;text-align:left;border-bottom:1px solid #b89a6638;padding:18px 10px;min-height:75px;color:var(--muted);transition:color .4s,background .4s}
+#detail .chapter-choices button[aria-selected="true"]{color:var(--paper);background:#b89a6610;box-shadow:inset 2px 0 var(--gold)}
+#detail .chapter-choices button:hover{color:var(--gold)}
+#detail .chapter-choices button>span:first-of-type{flex:1;font:400 23px/1.3 var(--serif)}
+#detail .chapter-choices button>span:last-child{color:var(--gold)}
+#detail .chapter-choices img{width:64px;height:48px;object-fit:contain;flex-shrink:0}
+#detail .chapter-panel{min-width:0}
+#detail .chapter-panel h3{font:400 clamp(27px,3vw,40px)/1.2 var(--serif);color:var(--gold);margin:28px 0 20px}
+#detail .chapter-panel p{font-size:17px;line-height:2.1}
+#detail .chapter-panel figure{background:#ffffff03;padding:20px}
+#detail figure{margin:0;min-width:0}
+#detail figure a{display:block}
+#detail figure img{display:block;width:100%;height:auto;max-height:68svh;object-fit:contain;margin:auto}
+#detail .chapter-figures{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;margin-top:36px;align-items:center}
+#detail .chapter-figures.single{grid-template-columns:minmax(0,1fr)}
+#detail .pdf-section table{width:100%;border-collapse:collapse;color:#bbb5a8;font-size:16px;line-height:1.9;table-layout:fixed}
+#detail .pdf-section th,#detail .pdf-section td{padding:20px;border-bottom:1px solid #b89a6638;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+#detail .pdf-section th{font-weight:400;color:var(--gold)}
+#detail .pdf-section th:first-child{width:30%}
+#detail .pdf-reveal{transition:opacity 360ms ease}
+#detail .pdf-visible{animation:chapter-panel-in 360ms ease both}
+@keyframes chapter-panel-in{from{opacity:0}to{opacity:1}}
+#detail.pdf-detail .detail-view>.detail-end{max-width:1250px;margin:0 auto 60px;padding:30px 6vw}
+@media(max-width:760px){
+ body.detail-open .masthead{left:6%;top:20px}
+ #detail .pdf-section{padding:45px 7%}
+ #detail .pdf-section p{font-size:14px}
+ #detail .chapter-explorer{grid-template-columns:minmax(0,1fr);gap:30px}
+ #detail .chapter-choices{flex-direction:row;overflow-x:auto;gap:8px;padding-bottom:10px}
+ #detail .chapter-choices button{min-height:85px;padding:12px;flex:0 0 220px}
+ #detail .chapter-choices img{width:48px;height:40px}
+ #detail .chapter-choices button>span:first-of-type{font-size:20px}
+ #detail .chapter-panel figure{padding:12px}
+ #detail .chapter-figures{grid-template-columns:minmax(0,1fr)}
+ #detail .pdf-section th,#detail .pdf-section td{padding:12px 8px;font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){#detail .pdf-reveal,#detail .pdf-visible,#detail .chapter-panel{animation:none;transition:none}}
+
+#detail .detail-view{min-height:100%;background:var(--ink)}
+#detail .content-unit{min-width:0}
+#detail .content-unit.with-image{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:36px;align-items:start}
+#detail .content-unit:not(.with-image)>.unit-images{display:none}
+#detail .unit-images{display:grid;gap:24px;min-width:0}
+#detail .unit-images img{max-height:500px;object-fit:contain}
+#detail .content-unit h3{margin-top:0}
+#detail .chapter-panels{display:grid;align-items:start;min-width:0}
+#detail .chapter-panel{grid-area:1/1}
+#detail .chapter-panel[hidden]{display:block!important;visibility:hidden;pointer-events:none}
+#detail .content-unit.with-image.image-only{grid-template-columns:minmax(0,1fr)}
+#detail .content-unit.image-only>div:first-child{display:none}
+#detail .content-unit.image-only .unit-images{max-width:1000px;margin:auto;width:100%}
+@media(max-width:1000px){#detail .content-unit.with-image>.unit-images{order:-1}}
+@media(max-width:1000px){#detail .content-unit.with-image{grid-template-columns:minmax(0,1fr);gap:24px}}
