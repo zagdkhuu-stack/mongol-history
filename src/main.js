@@ -1,0 +1,75 @@
+﻿import { topics } from './topics.js';
+import { createExhibition } from './scene.js';
+import { bindNavigation } from './navigation.js';
+const $=id=>document.getElementById(id);
+const detail=$('detail'),index=$('topicIndex');
+let selected=0,mode='gallery',transition=0,scene;
+const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+function setIndex(open){
+  index.hidden=!open;$('indexToggle').setAttribute('aria-expanded',String(open));
+  document.body.classList.toggle('index-open',open);
+  if(open){index.querySelector('button').focus();}else $('indexToggle').focus();
+}
+function select(i,updateURL=true){
+  if(mode!=='gallery')return;
+  selected=Math.max(0,Math.min(topics.length-1,i));
+  scene?.select(selected);
+  const t=topics[selected];
+  $('currentNumber').textContent=t.number;$('currentCategory').textContent=t.category;$('currentTitle').textContent=t.short;
+  document.querySelectorAll('[data-topic]').forEach(el=>{const active=Number(el.dataset.topic)===selected;el.classList.toggle('active',active);el.setAttribute('aria-current',active?'true':'false');});
+  $('previous').disabled=selected===0;$('next').disabled=selected===9;
+  $('announcement').textContent=`${t.number}. ${t.title}`;
+  if(updateURL)history.replaceState({topic:selected},'',`#gallery/${t.id}`);
+}
+function renderDetail(){
+  const t=topics[selected];
+  detail.innerHTML=`<div class="detail-hero"><img src="${t.image}" alt="${t.short} — төслийн тайлбар зураг"><div class="detail-hero-shade"></div><div><span class="eyebrow">${t.number} — ${t.category}</span><h1>${t.title}</h1><p>${t.intro}</p></div></div><div class="reading"><div class="reading-aside"><span>${t.date}</span><p>МОНГОЛ ГҮРЭН<br>АЖ АХУЙ, СОЁЛ</p><small>Зураг: төслийн дүрслэл.<br>Баримтат гэрэл зураг биш.</small></div><div class="reading-content">${t.sections.map((s,i)=>`<section><span class="section-number">0${i+1}</span><h2>${s[0]}</h2><p>${s[1]}</p></section>`).join('')}${t.incomplete?'<div class="research-note"><strong>СУДАЛГААГ ҮРГЭЛЖЛҮҮЛЭХ ХЭСЭГ</strong><p>Дээр тэмдэглэсэн нарийвчилсан мэдээлэлд нэмэлт анхдагч сурвалж шаардлагатай. Баталгаагүй тоо, баримт нэмж оруулаагүй.</p></div>':''}<section class="sources"><span class="eyebrow">ЦААШ УНШИХ</span><h2>Эх сурвалж</h2>${t.sources.map(s=>`<a href="${s.url}" target="_blank" rel="noopener noreferrer">${s.name} <span>↗</span></a>`).join('')}</section><div class="detail-end"><span>${t.number} / 10</span><button id="nextDetail">${selected<9?'ДАРААГИЙН СЭДЭВ →':'ҮЗЭСГЭЛЭНД БУЦАХ ↗'}</button></div></div></div>`;
+  $('nextDetail').onclick=()=>{if(selected===9){returnGallery();return;}mode='gallery';select(selected+1,false);mode='detail';renderDetail();detail.scrollTop=0;history.replaceState({topic:selected,detail:true},'',`#topic/${topics[selected].id}`);};
+}
+function enterTopic(push=true){
+  if(mode!=='gallery')return;
+  setIndex(false);mode='entering';scene.zoom(1);document.body.classList.add('entering');
+  clearTimeout(transition);
+  transition=setTimeout(()=>{
+    renderDetail();detail.hidden=false;detail.scrollTop=0;mode='detail';document.body.classList.add('detail-open');document.body.classList.remove('entering');
+    $('galleryUI').inert=true;$('gallery').inert=true;scene.pause(true);detail.focus({preventScroll:true});
+    if(push)history.pushState({topic:selected,detail:true},'',`#topic/${topics[selected].id}`);
+  },reduced.matches?0:780);
+}
+function returnGallery(changeURL=true){
+  if(mode==='gallery')return;
+  clearTimeout(transition);mode='leaving';document.body.classList.remove('detail-open','entering');
+  $('galleryUI').inert=false;$('gallery').inert=false;scene.pause(false);scene.zoom(0);
+  transition=setTimeout(()=>{detail.hidden=true;mode='gallery';select(selected,false);$('enterTopic').focus({preventScroll:true});},reduced.matches?0:650);
+  if(changeURL){if(history.state?.detail)history.back();else history.replaceState({topic:selected},'',`#gallery/${topics[selected].id}`);}
+}
+function route(){
+  const match=location.hash.match(/^#(topic|gallery)\/topic-(\d+)$/);
+  if(!match){if(mode!=='gallery')returnGallery(false);return;}
+  const i=Math.max(0,Math.min(9,Number(match[2])-1));
+  if(match[1]==='topic'){
+    clearTimeout(transition);mode='gallery';select(i,false);enterTopic(false);
+  }else if(mode!=='gallery'){
+    selected=i;scene.select(i);returnGallery(false);
+  }else select(i,false);
+}
+$('dots').innerHTML=topics.map((t,i)=>`<button data-topic="${i}" aria-label="${t.number}. ${t.title}"><span>${t.number}</span></button>`).join('');
+$('indexLinks').innerHTML=topics.map((t,i)=>`<button data-topic="${i}"><span>${t.number}</span><span>${t.title}</span><span>↗</span></button>`).join('');
+document.querySelectorAll('[data-topic]').forEach(el=>el.onclick=()=>{if(mode!=='gallery')returnGallery(false);clearTimeout(transition);detail.hidden=true;mode='gallery';document.body.classList.remove('detail-open','entering');$('galleryUI').inert=false;$('gallery').inert=false;scene.zoom(0);select(Number(el.dataset.topic));setIndex(false);});
+$('indexToggle').onclick=()=>setIndex(index.hidden);$('closeIndex').onclick=()=>setIndex(false);
+$('previous').onclick=()=>select(selected-1);$('next').onclick=()=>select(selected+1);$('enterTopic').onclick=()=>enterTopic();
+document.querySelector('.brand').onclick=e=>{e.preventDefault();if(mode!=='gallery')returnGallery();else select(0);};
+scene=createExhibition($('world'),topics,select,enterTopic);
+const unbind=bindNavigation({element:$('gallery'),canNavigate:()=>mode==='gallery'&&index.hidden,move:delta=>select(selected+delta),enter:enterTopic,close:()=>{if(!index.hidden)setIndex(false);else if(mode!=='gallery')returnGallery();}});
+// Trap the modal topic index without trapping the independently scrolling article.
+document.addEventListener('keydown',e=>{
+  if(index.hidden||e.key!=='Tab')return;
+  const buttons=index.querySelectorAll('button');const first=buttons[0],last=buttons[buttons.length-1];
+  if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
+  if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
+});
+window.addEventListener('popstate',route);
+select(0,false);route();
+Promise.all([document.fonts.ready,...topics.slice(0,2).map(t=>new Promise(resolve=>{const img=new Image();img.onload=img.onerror=resolve;img.src=t.image;}))]).then(()=>$('loader').classList.add('loaded'));
+setTimeout(()=>$('loader').classList.add('loaded'),4500);
+window.addEventListener('pagehide',()=>{unbind();scene.dispose();},{once:true});

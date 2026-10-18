@@ -1,0 +1,10 @@
+﻿import {chromium} from '@playwright/test';
+const browser=await chromium.launch({channel:'msedge'});
+const page=await browser.newPage({viewport:{width:1440,height:900}});
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://127.0.0.1:4173/');await page.waitForSelector('#loader.loaded');
+await page.locator('#enterTopic').click();await page.waitForSelector('body.detail-open');
+await page.waitForTimeout(700);await page.screenshot({path:'detail-preview.png'});
+const images=await page.locator('#detail img').evaluateAll(imgs=>imgs.every(i=>i.complete&&i.naturalWidth>0));
+console.log(JSON.stringify({productionImagesLoaded:images,runtimeErrors:errors}));
+await browser.close();

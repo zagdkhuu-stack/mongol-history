@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Монгол гүрний аж ахуй, соёл</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ========================================
+       TOP PROGRESS
+  ========================================= -->
+
+  <div class="top-progress">
+    <div
+      class="top-progress-fill"
+      id="topProgressFill">
+    </div>
+  </div>
+
+
+  <!-- ========================================
+       MAIN SCROLL CONTROLLER
+       
+       Энэ урт хэсэг зөвхөн scroll-ийн хэмжээг
+       animation progress болгоход ашиглагдана.
+       
+       Доторх presentation өөрөө sticky тул
+       дэлгэц доош хөдөлж байгаа мэт харагдахгүй.
+  ========================================= -->
+
+  <main
+    class="experience"
+    id="experience"
+  >
+
+    <div class="stage" id="stage">
+
+
+      <!-- ====================================
+           BACKGROUND DECORATION
+      ===================================== -->
+
+      <div class="background-grid"></div>
+
+      <div class="background-glow"></div>
+
+      <div
+        class="giant-number"
+        id="giantNumber"
+      >
+        01
+      </div>
+
+
+
+      <!-- ====================================
+           IMAGE LAYER A
+      ===================================== -->
+
+      <div
+        class="image-layer image-layer-a"
+        id="imageLayerA"
+      >
+
+        <div class="image-frame">
+
+          <img
+            id="imageA"
+            src="assets/images/01.jpg"
+            alt="Монгол гүрэн"
+          >
+
+          <div class="image-shade"></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- ====================================
+           IMAGE LAYER B
+           
+           Дараагийн зураг энд урьдчилж орно.
+           Ингэснээр 2 зураг хоорондоо cinematic
+           transition хийж чадна.
+      ===================================== -->
+
+      <div
+        class="image-layer image-layer-b"
+        id="imageLayerB"
+      >
+
+        <div class="image-frame">
+
+          <img
+            id="imageB"
+            src="assets/images/02.jpg"
+            alt="Монгол гүрэн"
+          >
+
+          <div class="image-shade"></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- ====================================
+           TEXT CONTENT
+      ===================================== -->
+
+      <section
+        class="content"
+        id="content"
+      >
+
+        <div class="content-meta">
+
+          <span id="chapterNumber">
+            01
+          </span>
+
+          <span class="meta-line"></span>
+
+          <span id="chapterCategory">
+            МОНГОЛЫН ТҮҮХ
+          </span>
+
+        </div>
+
+
+        <h1 id="chapterTitle">
+          Ерөнхий нөхцөл,<br>
+          түүхэн орчин
+        </h1>
+
+
+        <p id="chapterDescription">
+          Монгол гүрэн байгуулагдсан түүхэн нөхцөл
+          болон тухайн үеийн ерөнхий мэдээлэл.
+        </p>
+
+
+        <div
+          class="keywords"
+          id="keywords"
+        >
+          <span>1206</span>
+          <span>XIII ЗУУН</span>
+          <span>МОНГОЛ ГҮРЭН</span>
+        </div>
+
+      </section>
+
+
+
+      <!-- ====================================
+           SIDE CHAPTER INDICATOR
+      ===================================== -->
+
+      <aside class="chapter-nav">
+
+        <span
+          class="chapter-current"
+          id="currentChapter"
+        >
+          01
+        </span>
+
+
+        <div class="chapter-line">
+
+          <div
+            class="chapter-line-fill"
+            id="chapterLineFill"
+          ></div>
+
+        </div>
+
+
+        <span class="chapter-total">
+          10
+        </span>
+
+      </aside>
+
+
+
+      <!-- ====================================
+           SMALL SIDE LABEL
+      ===================================== -->
+
+      <div class="side-label">
+        МОНГОЛ ГҮРЭН · АЖ АХУЙ · СОЁЛ
+      </div>
+
+
+
+      <!-- ====================================
+           INTRO TITLE
+      ===================================== -->
+
+      <div
+        class="intro-overlay"
+        id="introOverlay"
+      >
+
+        <span class="intro-small">
+          XIII–XIV ЗУУН
+        </span>
+
+        <h2>
+          МОНГОЛ
+          <span>ГҮРЭН</span>
+        </h2>
+
+        <p>
+          АЖ АХУЙ · ЭДИЙН СОЁЛ · ОЮУНЫ СОЁЛ
+        </p>
+
+      </div>
+
+
+
+      <!-- ====================================
+           FINAL / OUTRO
+      ===================================== -->
+
+      <div
+        class="outro-overlay"
+        id="outroOverlay"
+      >
+
+        <span>
+          1206 — 1368
+        </span>
+
+        <h2>
+          МОНГОЛ
+          <strong>ГҮРНИЙ ӨВ</strong>
+        </h2>
+
+        <p>
+          ДҮГНЭЛТ
+        </p>
+
+      </div>
+
+
+
+      <!-- ====================================
+           DECORATIVE CORNERS
+      ===================================== -->
+
+      <div class="corner corner-top-left"></div>
+
+      <div class="corner corner-top-right"></div>
+
+      <div class="corner corner-bottom-left"></div>
+
+      <div class="corner corner-bottom-right"></div>
+
+
+
+      <!-- ====================================
+           SCROLL HINT
+      ===================================== -->
+
+      <div
+        class="scroll-hint"
+        id="scrollHint"
+      >
+
+        <span>
+          SCROLL
+        </span>
+
+        <div class="scroll-hint-line"></div>
+
+      </div>
+
+
+    </div>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>

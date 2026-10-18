@@ -1,0 +1,589 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #080705;
+  color: #eee8dc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* =========================
+   TOP PROGRESS
+========================= */
+
+.top-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  z-index: 999;
+  background: rgba(255,255,255,.06);
+}
+
+.top-progress-fill {
+  width: 0;
+  height: 100%;
+  background: #c79a54;
+}
+
+/* =========================
+   SCROLL CONTROLLER
+========================= */
+
+.experience {
+  position: relative;
+  height: 1250vh;
+}
+
+.stage {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #080705;
+}
+
+/* =========================
+   BACKGROUND
+========================= */
+
+.background-grid {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: .16;
+
+  background-image:
+    linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+
+  background-size: 80px 80px;
+}
+
+.background-glow {
+  position: absolute;
+  width: 65vw;
+  height: 65vw;
+  border-radius: 50%;
+  right: -25vw;
+  top: -30vw;
+
+  background: radial-gradient(
+    circle,
+    rgba(185,135,69,.13),
+    transparent 68%
+  );
+}
+
+/* =========================
+   GIANT NUMBER
+========================= */
+
+.giant-number {
+  position: absolute;
+  left: -2vw;
+  bottom: -10vw;
+  z-index: 1;
+
+  font-family: Georgia, serif;
+  font-size: 38vw;
+  line-height: .7;
+
+  color: rgba(255,255,255,.022);
+
+  pointer-events: none;
+}
+
+/* =========================
+   IMAGE SYSTEM
+========================= */
+
+.image-layer {
+  position: absolute;
+  z-index: 2;
+
+  right: 5vw;
+  top: 50%;
+
+  width: min(55vw, 900px);
+  height: 72vh;
+
+  transform-origin: center;
+  will-change: transform, opacity, clip-path;
+}
+
+.image-frame {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+
+  border: 1px solid rgba(199,154,84,.18);
+
+  background: #15110d;
+}
+
+.image-frame img {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  will-change: transform;
+}
+
+.image-shade {
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(8,7,5,.45),
+      transparent 40%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(8,7,5,.28),
+      transparent 40%
+    );
+
+  pointer-events: none;
+}
+
+.image-layer-a {
+  transform: translateY(-50%);
+}
+
+.image-layer-b {
+  opacity: 0;
+  transform: translateY(-50%) scale(.8);
+}
+
+/* =========================
+   TEXT
+========================= */
+
+.content {
+  position: absolute;
+  z-index: 10;
+
+  left: 7vw;
+  top: 50%;
+
+  width: min(44vw, 650px);
+
+  transform: translateY(-50%);
+
+  will-change: transform, opacity;
+}
+
+.content-meta {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  margin-bottom: 28px;
+
+  font-size: 9px;
+  letter-spacing: 4px;
+
+  color: #c79a54;
+}
+
+.meta-line {
+  width: 45px;
+  height: 1px;
+
+  background: rgba(199,154,84,.5);
+}
+
+#chapterCategory {
+  color: #777066;
+}
+
+.content h1 {
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: clamp(55px, 6.2vw, 105px);
+  font-weight: 400;
+
+  line-height: .91;
+
+  letter-spacing: -5px;
+}
+
+.content > p {
+  width: 80%;
+  max-width: 480px;
+
+  margin-top: 30px;
+
+  font-size: 14px;
+  line-height: 1.8;
+
+  color: #928a7e;
+}
+
+/* =========================
+   KEYWORDS
+========================= */
+
+.keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  margin-top: 28px;
+}
+
+.keywords span {
+  border: 1px solid rgba(199,154,84,.25);
+
+  padding: 8px 11px;
+
+  font-size: 8px;
+  letter-spacing: 2px;
+
+  color: #c79a54;
+}
+
+/* =========================
+   SIDE PROGRESS
+========================= */
+
+.chapter-nav {
+  position: absolute;
+
+  right: 2.3vw;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  z-index: 20;
+
+  height: 230px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  font-size: 8px;
+  letter-spacing: 2px;
+
+  color: #777067;
+}
+
+.chapter-current {
+  color: #c79a54;
+}
+
+.chapter-line {
+  width: 1px;
+  flex: 1;
+
+  background: rgba(255,255,255,.1);
+
+  position: relative;
+  overflow: hidden;
+}
+
+.chapter-line-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 10%;
+
+  background: #c79a54;
+}
+
+/* =========================
+   SIDE LABEL
+========================= */
+
+.side-label {
+  position: absolute;
+
+  left: 25px;
+  top: 50%;
+
+  z-index: 20;
+
+  transform:
+    translateX(-50%)
+    rotate(-90deg);
+
+  font-size: 7px;
+  letter-spacing: 4px;
+
+  color: #4f4a43;
+}
+
+/* =========================
+   INTRO
+========================= */
+
+.intro-overlay {
+  position: absolute;
+  inset: 0;
+
+  z-index: 50;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background: #080705;
+
+  will-change: transform, opacity, clip-path;
+}
+
+.intro-small {
+  font-size: 9px;
+  letter-spacing: 7px;
+
+  color: #c79a54;
+
+  margin-bottom: 25px;
+}
+
+.intro-overlay h2 {
+  font-family: Georgia, serif;
+
+  font-size: clamp(90px, 15vw, 240px);
+
+  font-weight: 400;
+
+  line-height: .72;
+
+  letter-spacing: -10px;
+}
+
+.intro-overlay h2 span {
+  display: block;
+
+  color: #c79a54;
+}
+
+.intro-overlay p {
+  margin-top: 50px;
+
+  font-size: 9px;
+  letter-spacing: 6px;
+
+  color: #6e675e;
+}
+
+/* =========================
+   OUTRO
+========================= */
+
+.outro-overlay {
+  position: absolute;
+  inset: 0;
+
+  z-index: 60;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background: #080705;
+
+  opacity: 0;
+  pointer-events: none;
+
+  transform: scale(1.3);
+
+  will-change: opacity, transform, clip-path;
+}
+
+.outro-overlay > span {
+  font-size: 9px;
+  letter-spacing: 7px;
+
+  color: #c79a54;
+}
+
+.outro-overlay h2 {
+  margin-top: 30px;
+
+  font-family: Georgia, serif;
+
+  font-size: clamp(80px, 13vw, 210px);
+
+  font-weight: 400;
+
+  line-height: .75;
+
+  letter-spacing: -8px;
+}
+
+.outro-overlay h2 strong {
+  display: block;
+
+  font-weight: 400;
+
+  color: #c79a54;
+}
+
+.outro-overlay p {
+  margin-top: 50px;
+
+  font-size: 9px;
+  letter-spacing: 7px;
+
+  color: #71695f;
+}
+
+/* =========================
+   CORNERS
+========================= */
+
+.corner {
+  position: absolute;
+
+  width: 30px;
+  height: 30px;
+
+  z-index: 30;
+
+  opacity: .35;
+}
+
+.corner-top-left {
+  left: 30px;
+  top: 30px;
+
+  border-left: 1px solid #c79a54;
+  border-top: 1px solid #c79a54;
+}
+
+.corner-top-right {
+  right: 30px;
+  top: 30px;
+
+  border-right: 1px solid #c79a54;
+  border-top: 1px solid #c79a54;
+}
+
+.corner-bottom-left {
+  left: 30px;
+  bottom: 30px;
+
+  border-left: 1px solid #c79a54;
+  border-bottom: 1px solid #c79a54;
+}
+
+.corner-bottom-right {
+  right: 30px;
+  bottom: 30px;
+
+  border-right: 1px solid #c79a54;
+  border-bottom: 1px solid #c79a54;
+}
+
+/* =========================
+   SCROLL HINT
+========================= */
+
+.scroll-hint {
+  position: absolute;
+
+  z-index: 70;
+
+  left: 50%;
+  bottom: 30px;
+
+  transform: translateX(-50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 7px;
+  letter-spacing: 4px;
+
+  color: #6e675e;
+}
+
+.scroll-hint-line {
+  width: 1px;
+  height: 40px;
+
+  background: linear-gradient(
+    #c79a54,
+    transparent
+  );
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 850px) {
+
+  .image-layer {
+    width: 90vw;
+    height: 52vh;
+
+    right: -15vw;
+    top: 60%;
+  }
+
+  .content {
+    left: 25px;
+    top: 38%;
+
+    width: 90%;
+  }
+
+  .content h1 {
+    font-size: 48px;
+    letter-spacing: -2px;
+  }
+
+  .content > p {
+    width: 70%;
+    font-size: 12px;
+  }
+
+  .chapter-nav {
+    right: 12px;
+  }
+
+  .side-label {
+    display: none;
+  }
+
+  .intro-overlay h2 {
+    font-size: 80px;
+    letter-spacing: -5px;
+  }
+
+}
