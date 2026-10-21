@@ -1,5 +1,12 @@
 # Museum completion — 2026-10-21
 
+Latest refinement: Topic 10's disease/risk comparison section and its plague
+timeline entry were removed at the user's request. The topic now has three
+sections (38 across the website). Pax Mongolica, relay, positive trade effects
+and cultural exchange remain. Other topics, gallery, navigation and styles are
+unchanged. The original completion checks below describe the earlier 39-section
+baseline.
+
 Implemented exclusively in `C:\Users\Dell\OneDrive\Desktop\mongol-history - Copy`.
 This report supersedes the previous simplification/reference-redesign reports.
 

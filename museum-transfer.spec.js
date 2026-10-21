@@ -9,7 +9,7 @@ async function open(page,number){
  await expect(page.locator('#loader')).toHaveCSS('visibility','hidden');
 }
 for(const [width,height] of [[1920,1080],[1440,900],[1366,768],[1024,768],[768,1024],[390,844],[375,812]]){
- test(`39 sections, selectors and image proportions at ${width}x${height}`,async({page})=>{
+ test(`38 sections, selectors and image proportions at ${width}x${height}`,async({page})=>{
   await page.setViewportSize({width,height});await page.emulateMedia({reducedMotion:'reduce'});
   const errors=[],failed=[];page.on('pageerror',e=>errors.push(e.message));
   page.on('response',r=>{if(r.status()>=400&&r.url().includes('/assets/'))failed.push(r.url());});
@@ -49,7 +49,7 @@ for(const [width,height] of [[1920,1080],[1440,900],[1366,768],[1024,768],[768,1
     await page.screenshot({path:`research/final-review/topic-${topic.number}-${width}.png`});
    }
   }
-  expect(count).toBe(39);expect(errors).toEqual([]);expect(failed).toEqual([]);
+  expect(count).toBe(38);expect(errors).toEqual([]);expect(failed).toEqual([]);
  });
 }
 test('all gallery entries, hamburger navigation, Back and exact logo route',async({page})=>{
@@ -105,8 +105,11 @@ test('rapid changes dispose observers and preserve coherent panels',async({page}
  expect(await page.evaluate(()=>window.liveObservers.size)).toBe(await page.locator('[data-learning]').count());
  await page.locator('.brand').click();expect(await page.evaluate(()=>window.liveObservers.size)).toBe(0);expect(errors).toEqual([]);
 });
-test('source presentation retains all original sections and required facts',()=>{
- expect(topics.reduce((sum,t)=>sum+exhibitionsFor(t).length,0)).toBe(39);
+test('source presentation retains requested sections and required facts',()=>{
+ expect(topics.reduce((sum,t)=>sum+exhibitionsFor(t).length,0)).toBe(38);
  const text=JSON.stringify(topics.map(exhibitionsFor));
- for(const fact of ['1206','30–40','Тататунга','1240','1269','1254','Ганлин','Марага','ат-Туси','Хөх дэвтэр','татвар','цаасан мөнгө','болзошгүй'])expect(text).toContain(fact);
+ for(const fact of ['1206','30–40','Тататунга','1240','1269','1254','Ганлин','Марага','ат-Туси','Хөх дэвтэр','татвар','цаасан мөнгө'])expect(text).toContain(fact);
+ const legacy=JSON.stringify(exhibitionsFor(topics[9]));
+ expect(legacy).not.toMatch(/тахал|өвчний|Болзошгүй эрсдэл|Хөдөлгөөн нэмэгдэх|Харилцааны боломж/);
+ expect(exhibitionsFor(topics[9])).toHaveLength(3);
 });
