@@ -1,0 +1,1745 @@
+[
+  {
+    "number": "01",
+    "title": "Монголын эзэнт гүрний түүхэн ач холбогдол",
+    "sections": [
+      {
+        "title": "1206. Нэгдлийн эхлэл",
+        "paragraphs": [
+          "Чингис хааны байгуулсан Их Монгол Улс XIII–XIV зуунд Ази, Европыг дамнасан, түүхэн дэх хамгийн өргөн уудам үргэлжилсэн хуурай газрын эзэнт гүрэн болж өргөжсөн."
+        ],
+        "layout": "statement",
+        "statLabel": "Их Монгол Улс байгуулагдав",
+        "id": "topic-1-section-0",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          2
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-1-section-0"
+        ]
+      },
+      {
+        "title": "Газар нутгаас давсан холбоо",
+        "paragraphs": [
+          "Түүхэн ач холбогдлыг зөвхөн байлдан дагуулалт, газар нутгийн тэлэлтээр хязгаарлахгүй. Евразийн олон бүс нутгийг дараах харилцаанд холбосон."
+        ],
+        "layout": "connections",
+        "items": [
+          {
+            "id": "topic-1-section-1-item-0",
+            "label": "Улс төр",
+            "title": "Улс төр",
+            "description": "Өргөн уудам нутгийг хамарсан засаглал, харилцааны хүрээ.",
+            "sourcePage": 2,
+            "sourcePages": [
+              2
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-1-section-1-item-1",
+            "label": "Эдийн засаг",
+            "title": "Эдийн засаг",
+            "description": "Өөр өөр бүс нутгийн аж ахуйн харилцан холбоо.",
+            "sourcePage": 2,
+            "sourcePages": [
+              2
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-1-section-1-item-2",
+            "label": "Худалдаа",
+            "title": "Худалдаа",
+            "description": "Бараа бүтээгдэхүүн солилцох зам, хотуудын харилцаа.",
+            "sourcePage": 2,
+            "sourcePages": [
+              2
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-1-section-1-item-3",
+            "label": "Соёл",
+            "title": "Соёл",
+            "description": "Хүмүүс, мэдлэг, уламжлал харилцан нэвтрэх орон зай.",
+            "sourcePage": 2,
+            "sourcePages": [
+              2
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          }
+        ],
+        "id": "topic-1-section-1",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          2
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-1-section-1"
+        ]
+      }
+    ]
+  },
+  {
+    "number": "02",
+    "title": "Мал аж ахуй, нүүдлийн амьдрал",
+    "sections": [
+      {
+        "title": "Таван хошуу мал",
+        "paragraphs": [
+          "Мал аж ахуй нь мах, сүү, арьс шир, уналга тээврийн хэрэгслээр хангаж байв. Энэ нь хүнсний аж ахуй болон өдөр тутмын тээвэртэй холбогдоно."
+        ],
+        "widget": {
+          "type": "livestock",
+          "items": [
+            {
+              "title": "Хонь",
+              "text": "Махыг хүнсэнд хэрэглэж, хонины арьсыг хувцасны материал болгодог тухай хүнс, ахуйн хэсгүүдэд дурдсан."
+            },
+            {
+              "title": "Ямаа",
+              "text": "Махыг хүнсэнд хэрэглэдэг малыг жагсаахдаа ямааг нэрлэсэн. Малын гаралтай хүнс нь аж ахуйн үндсэн нөөц байв."
+            },
+            {
+              "title": "Үхэр",
+              "text": "Махыг хүнсэнд хэрэглэнэ. Үхрийн тэргээр ачаа, гэрийн эд зүйл зөөвөрлөдөг гэж өдөр тутмын тээврийн хэсэгт өгүүлсэн."
+            },
+            {
+              "title": "Адуу",
+              "text": "Таван хошуу малын нэг. Уналга тээврийн үүрэгтэй."
+            },
+            {
+              "title": "Тэмээ",
+              "text": "Таван хошуу малын нэг. Ачаа тээвэрт хэрэглэнэ."
+            }
+          ]
+        },
+        "id": "topic-2-section-0",
+        "kind": "category",
+        "type": "livestock",
+        "sourcePages": [
+          3,
+          7,
+          20,
+          23
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "items": [
+          {
+            "id": "topic-2-section-0-item-0",
+            "label": "Хонь",
+            "title": "Хонь",
+            "description": "Махыг хүнсэнд хэрэглэж, хонины арьсыг хувцасны материал болгодог тухай хүнс, ахуйн хэсгүүдэд дурдсан.",
+            "sourcePage": 3,
+            "sourcePages": [
+              3,
+              7,
+              20,
+              23
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-2-section-0-item-1",
+            "label": "Ямаа",
+            "title": "Ямаа",
+            "description": "Махыг хүнсэнд хэрэглэдэг малыг жагсаахдаа ямааг нэрлэсэн. Малын гаралтай хүнс нь аж ахуйн үндсэн нөөц байв.",
+            "sourcePage": 3,
+            "sourcePages": [
+              3,
+              7,
+              20,
+              23
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-2-section-0-item-2",
+            "label": "Үхэр",
+            "title": "Үхэр",
+            "description": "Махыг хүнсэнд хэрэглэнэ. Үхрийн тэргээр ачаа, гэрийн эд зүйл зөөвөрлөдөг гэж өдөр тутмын тээврийн хэсэгт өгүүлсэн.",
+            "sourcePage": 3,
+            "sourcePages": [
+              3,
+              7,
+              20,
+              23
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-2-section-0-item-3",
+            "label": "Адуу",
+            "title": "Адуу",
+            "description": "Таван хошуу малын нэг. Уналга тээврийн үүрэгтэй.",
+            "sourcePage": 3,
+            "sourcePages": [
+              3,
+              7,
+              20,
+              23
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-2-section-0-item-4",
+            "label": "Тэмээ",
+            "title": "Тэмээ",
+            "description": "Таван хошуу малын нэг. Ачаа тээвэрт хэрэглэнэ.",
+            "sourcePage": 3,
+            "sourcePages": [
+              3,
+              7,
+              20,
+              23
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          }
+        ],
+        "selectorVisual": {
+          "image": "/mongol-history/assets/exhibit/livestock.webp",
+          "imageAlt": "Таван хошуу малын эх танилцуулгын зураг",
+          "imageSourcePage": 3,
+          "width": 846,
+          "height": 564
+        },
+        "interactive": true,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-2-section-0",
+          "topic-2-section-2"
+        ]
+      },
+      {
+        "title": "Улирал солигдоход",
+        "paragraphs": [
+          "Хавар, зун, намар, өвлийн бэлчээр, байгалийн орчныг эхийн дөрвөн зургаар харьцуулна."
+        ],
+        "widget": {
+          "type": "seasons",
+          "items": [
+            {
+              "title": "Хавар",
+              "text": "Ногоорон сэргэж буй тал, гэр, мал сүргийг дүрсэлсэн.",
+              "image": "/assets/exhibit/spring.webp"
+            },
+            {
+              "title": "Зун",
+              "text": "Ногоон бэлчээр, устай орчин бүхий зуны дүрслэл.",
+              "image": "/assets/exhibit/summer.webp"
+            },
+            {
+              "title": "Намар",
+              "text": "Шаргалтсан тал, сүрэг, нүүдэлчдийн дүрслэл.",
+              "image": "/assets/exhibit/autumn.webp"
+            },
+            {
+              "title": "Өвөл",
+              "text": "Цастай бэлчээр, өвлийн сууц орчмын дүрслэл.",
+              "image": "/assets/exhibit/winter.webp"
+            }
+          ]
+        },
+        "id": "topic-2-section-1",
+        "kind": "category",
+        "type": "seasons",
+        "sourcePages": [
+          4
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "items": [
+          {
+            "id": "topic-2-section-1-item-0",
+            "label": "Хавар",
+            "title": "Хавар",
+            "description": "Ногоорон сэргэж буй тал, гэр, мал сүргийг дүрсэлсэн.",
+            "sourcePage": 4,
+            "sourcePages": [
+              4
+            ],
+            "image": "/mongol-history/assets/exhibit/spring.webp",
+            "imageAlt": "Хавар",
+            "imageSourcePage": 4,
+            "width": 423,
+            "height": 282,
+            "imageStatus": "verified"
+          },
+          {
+            "id": "topic-2-section-1-item-1",
+            "label": "Зун",
+            "title": "Зун",
+            "description": "Ногоон бэлчээр, устай орчин бүхий зуны дүрслэл.",
+            "sourcePage": 4,
+            "sourcePages": [
+              4
+            ],
+            "image": "/mongol-history/assets/exhibit/summer.webp",
+            "imageAlt": "Зун",
+            "imageSourcePage": 4,
+            "width": 423,
+            "height": 282,
+            "imageStatus": "verified"
+          },
+          {
+            "id": "topic-2-section-1-item-2",
+            "label": "Намар",
+            "title": "Намар",
+            "description": "Шаргалтсан тал, сүрэг, нүүдэлчдийн дүрслэл.",
+            "sourcePage": 4,
+            "sourcePages": [
+              4
+            ],
+            "image": "/mongol-history/assets/exhibit/autumn.webp",
+            "imageAlt": "Намар",
+            "imageSourcePage": 4,
+            "width": 423,
+            "height": 282,
+            "imageStatus": "verified"
+          },
+          {
+            "id": "topic-2-section-1-item-3",
+            "label": "Өвөл",
+            "title": "Өвөл",
+            "description": "Цастай бэлчээр, өвлийн сууц орчмын дүрслэл.",
+            "sourcePage": 4,
+            "sourcePages": [
+              4
+            ],
+            "image": "/mongol-history/assets/exhibit/winter.webp",
+            "imageAlt": "Өвөл",
+            "imageSourcePage": 4,
+            "width": 423,
+            "height": 282,
+            "imageStatus": "verified"
+          }
+        ],
+        "interactive": true,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-2-section-1"
+        ]
+      }
+    ]
+  },
+  {
+    "number": "03",
+    "title": "Ан агнуур, газар тариалан, хүнсний аж ахуй",
+    "sections": [
+      {
+        "title": "Ан ав: хүнс ба хамтын ажиллагаа",
+        "paragraphs": [
+          "Ан агнуур нь хүнсний хэрэгцээ хангах, арьс шир болон бусад түүхий эд бэлтгэх, цэргийн бэлтгэл сургуулилалт хийхэд чухал байв.",
+          "Хурдан морь, нум сум ашиглан зээр, буга зэрэг амьтан агнадаг; хавх ч хэрэглэдэг байжээ. Хамтын ан нь сахилга бат, хамтын ажиллагааг хөгжүүлнэ. Гэхдээ ан агнуур мал аж ахуйг орлоогүй, түүнийг нөхөж байв."
+        ],
+        "layout": "split",
+        "image": "/assets/exhibit/hunting.webp",
+        "caption": "Ан авын дүрслэл.",
+        "id": "topic-3-section-0",
+        "kind": "editorial",
+        "type": "hunting",
+        "sourcePages": [
+          5,
+          20
+        ],
+        "visual": {
+          "image": "/mongol-history/assets/exhibit/hunting-source.webp",
+          "imageAlt": "Морьтой ан авын дүрслэл",
+          "imageSourcePage": 5,
+          "width": 864,
+          "height": 638
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-3-section-0"
+        ]
+      },
+      {
+        "title": "Тариалангийн орон зай",
+        "paragraphs": [
+          "Монголын төв нутагт нүүдлийн мал аж ахуй давамгайлсан ч газар тариалан байгаагүй гэсэн үг биш. Байгаль, цаг уурт тохируулан тариалан эрхэлж, үр тариаг хүнсний нэмэлт эх үүсвэр болгожээ.",
+          "Гол мөрний хөндий, усалгааны боломжтой газар илүү тохиромжтой байв. Эзэнт гүрний бүрэлдэхүүн дэх Хятад, Төв Азийн тариалангийн бүсүүд үр тарианы чухал төв байжээ."
+        ],
+        "layout": "split-reverse",
+        "image": "/assets/exhibit/farm.webp",
+        "caption": "Тариалангийн тайлбар дүрслэл.",
+        "id": "topic-3-section-1",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          6
+        ],
+        "visual": {
+          "image": "/mongol-history/assets/exhibit/farm.webp",
+          "imageAlt": "Тариалангийн тайлбар дүрслэл.",
+          "imageSourcePage": 6,
+          "width": 883,
+          "height": 732
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-3-section-1"
+        ]
+      },
+      {
+        "title": "Хүнсний таван эх үүсвэр",
+        "paragraphs": [
+          "Мал аж ахуй, ан агнуур, тариалан нь харилцан нөхөж байв. Хүнсийг боловсруулах, хадгалах, хуваарилах замаар хүн амын хэрэгцээнд хүргэнэ. Аж ахуйн олон талт байдал нь эдийн засгийн тогтвортой байдалд нөлөөлсөн гэж эхэд дүгнэжээ."
+        ],
+        "id": "topic-3-section-2",
+        "kind": "category",
+        "type": "food",
+        "sourcePages": [
+          7,
+          22,
+          3,
+          5,
+          6
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "items": [
+          {
+            "id": "topic-3-section-2-item-0",
+            "label": "Малын мах",
+            "title": "Малын мах",
+            "description": "Хонь, ямаа, үхэр, адуу болон бусад малын махыг чанаж, хатааж, шарж хэрэглэнэ. Хатаасан мах, борцыг аян дайны хүнс болгон хэрэглэж байв.",
+            "sourcePage": 7,
+            "sourcePages": [
+              7,
+              22,
+              22
+            ],
+            "image": "/mongol-history/assets/exhibit/preserved-meat.webp",
+            "imageAlt": "Гэрт мах хатааж, хүнс нөөцөлж буй байдал",
+            "imageSourcePage": 7,
+            "imageStatus": "text-only: no confidently matched source image",
+            "width": 672,
+            "height": 495
+          },
+          {
+            "id": "topic-3-section-2-item-1",
+            "label": "Сүү, сүүн бүтээгдэхүүн",
+            "title": "Сүү, сүүн бүтээгдэхүүн",
+            "description": "Сүү, айраг, тараг, бяслаг, ааруул нь өдөр тутмын хүнсний чухал хэсэг байв. Айраг нь исгэсэн гүүний сүү.",
+            "sourcePage": 7,
+            "sourcePages": [
+              7,
+              22,
+              22
+            ],
+            "image": "/mongol-history/assets/exhibit/dairy-food.webp",
+            "imageAlt": "Сүү, цагаан идээ болон хүнсний хэрэглэл",
+            "imageSourcePage": 7,
+            "imageStatus": "text-only: no confidently matched source image",
+            "width": 672,
+            "height": 447
+          },
+          {
+            "id": "topic-3-section-2-item-2",
+            "label": "Ангийн мах",
+            "title": "Ангийн мах",
+            "description": "Малын гаралтай хүнсийг нөхөж, төрөл зүйлийг нэмэгдүүлнэ.",
+            "sourcePage": 7,
+            "sourcePages": [
+              7,
+              22
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-3-section-2-item-3",
+            "label": "Үр тариа, гурил",
+            "title": "Үр тариа, гурил",
+            "description": "Тариалангийн бүсээс нийлүүлэх болон дотооддоо үйлдвэрлэх эх үүсвэр байв. Хятад, Перс, Төв Азийн хоол, ундаа, амтлагч орж ирснээр хоолны соёл баяжив.",
+            "sourcePage": 7,
+            "sourcePages": [
+              7,
+              22,
+              22
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-3-section-2-item-4",
+            "label": "Зэрлэг ургамал",
+            "title": "Зэрлэг ургамал",
+            "description": "Байгалийн орчноос түүж, хүнсэнд нэмэлтээр ашиглана.",
+            "sourcePage": 7,
+            "sourcePages": [
+              7,
+              22
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          }
+        ],
+        "supplementaryVisuals": [],
+        "interactive": true,
+        "sourceSectionIds": [
+          "topic-3-section-2",
+          "topic-7-section-2",
+          "topic-3-section-3"
+        ]
+      }
+    ]
+  },
+  {
+    "number": "04",
+    "title": "Гар урлал, үйлдвэрлэл",
+    "sections": [
+      {
+        "title": "Долоон төрлийн урлал",
+        "paragraphs": [
+          "Их Монгол Улсын үед монголчууд өдөр тутмын амьдралдаа хэрэглэх олон төрлийн эд зүйлсийг өөрсдөө урлан хийдэг байв."
+        ],
+        "widget": {
+          "type": "artifacts",
+          "items": [
+            {
+              "title": "Модон эдлэл",
+              "text": "Гэрийн мод, тэрэг, сав суулга, таваг, халбага зэрэг.",
+              "image": "/assets/exhibit/wood.webp"
+            },
+            {
+              "title": "Арьс ширэн эдлэл",
+              "text": "Эмээл, хазаар, чөдөр, аргамж, хөхүүр зэрэг.",
+              "image": "/assets/exhibit/leather.webp"
+            },
+            {
+              "title": "Металл эдлэл",
+              "text": "Хутга, жад, нум сумны тоноглол, бамбай зэрэг.",
+              "image": "/assets/exhibit/metal.webp"
+            },
+            {
+              "title": "Нэхмэл, эсгий эдлэл",
+              "text": "Хивс, нэхмэл эдлэл, хувцас хэрэглэл.",
+              "image": "/assets/exhibit/textile.webp"
+            },
+            {
+              "title": "Гоёл чимэглэл",
+              "text": "Алт, мөнгө болон бусад материалаар хийсэн эдлэл.",
+              "image": "/assets/exhibit/jewelry.webp"
+            },
+            {
+              "title": "Хөгжмийн хэрэгсэл",
+              "text": "Морин хуур, ятга, хуучир зэрэг гэж танилцуулгад жагсаасан.",
+              "image": "/assets/exhibit/music.webp"
+            },
+            {
+              "title": "Шашин, зан үйлийн эд зүйлс",
+              "text": "Бөө мөргөлийн хувцас, толь, хонх, хэц, бамбай зэргийг жагсаасан.",
+              "image": "/assets/exhibit/ritual.webp"
+            }
+          ]
+        },
+        "id": "topic-4-section-0",
+        "kind": "category",
+        "type": "artifacts",
+        "sourcePages": [
+          8,
+          22
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "items": [
+          {
+            "id": "topic-4-section-0-item-0",
+            "label": "Модон эдлэл",
+            "title": "Модон эдлэл",
+            "description": "Гэрийн мод, тэрэг, сав суулга, таваг, халбага зэрэг.",
+            "sourcePage": 8,
+            "sourcePages": [
+              8,
+              22
+            ],
+            "image": "/mongol-history/assets/exhibit/wood.webp",
+            "imageAlt": "Модон эдлэл",
+            "imageSourcePage": 8,
+            "width": 344,
+            "height": 248,
+            "imageStatus": "verified",
+            "details": [
+              "Гэрийн мод",
+              "Тэрэг",
+              "Сав суулга",
+              "Таваг, халбага зэрэг"
+            ]
+          },
+          {
+            "id": "topic-4-section-0-item-1",
+            "label": "Арьс ширэн эдлэл",
+            "title": "Арьс ширэн эдлэл",
+            "description": "Эмээл, хазаар, чөдөр, аргамж, хөхүүр зэрэг.",
+            "sourcePage": 8,
+            "sourcePages": [
+              8,
+              22
+            ],
+            "image": "/mongol-history/assets/exhibit/leather.webp",
+            "imageAlt": "Арьс ширэн эдлэл",
+            "imageSourcePage": 8,
+            "width": 344,
+            "height": 248,
+            "imageStatus": "verified",
+            "details": [
+              "Эмээл",
+              "Хазаар",
+              "Чөдөр, аргамж",
+              "Хөхүүр зэрэг"
+            ]
+          },
+          {
+            "id": "topic-4-section-0-item-2",
+            "label": "Металл эдлэл",
+            "title": "Металл эдлэл",
+            "description": "Хутга, жад, нум сумны тоноглол, бамбай зэрэг.",
+            "sourcePage": 8,
+            "sourcePages": [
+              8,
+              22
+            ],
+            "image": "/mongol-history/assets/exhibit/metal.webp",
+            "imageAlt": "Металл эдлэл",
+            "imageSourcePage": 8,
+            "width": 366,
+            "height": 248,
+            "imageStatus": "verified",
+            "details": [
+              "Хутга",
+              "Жад",
+              "Нум сумны тоноглол, сумны үзүүр",
+              "Бамбай зэрэг"
+            ]
+          },
+          {
+            "id": "topic-4-section-0-item-3",
+            "label": "Нэхмэл, эсгий эдлэл",
+            "title": "Нэхмэл, эсгий эдлэл",
+            "description": "Хивс, нэхмэл эдлэл, хувцас хэрэглэл.",
+            "sourcePage": 8,
+            "sourcePages": [
+              8,
+              22
+            ],
+            "image": "/mongol-history/assets/exhibit/textile.webp",
+            "imageAlt": "Нэхмэл, эсгий эдлэл",
+            "imageSourcePage": 8,
+            "width": 344,
+            "height": 248,
+            "imageStatus": "verified",
+            "details": [
+              "Хивс",
+              "Нэхмэл эдлэл",
+              "Хувцас хэрэглэл"
+            ]
+          },
+          {
+            "id": "topic-4-section-0-item-4",
+            "label": "Гоёл чимэглэл",
+            "title": "Гоёл чимэглэл",
+            "description": "Алт, мөнгө болон бусад материалаар хийсэн эдлэл. Язгууртнууд алт, мөнгө, үнэт эдлэл хэрэглэдэг байв.",
+            "sourcePage": 8,
+            "sourcePages": [
+              8,
+              22
+            ],
+            "image": "/mongol-history/assets/exhibit/jewelry.webp",
+            "imageAlt": "Гоёл чимэглэл",
+            "imageSourcePage": 8,
+            "width": 481,
+            "height": 271,
+            "imageStatus": "verified"
+          },
+          {
+            "id": "topic-4-section-0-item-5",
+            "label": "Хөгжмийн хэрэгсэл",
+            "title": "Хөгжмийн хэрэгсэл",
+            "description": "Морин хуур, ятга, хуучир зэрэг гэж танилцуулгад жагсаасан.",
+            "sourcePage": 8,
+            "sourcePages": [
+              8,
+              22
+            ],
+            "image": "/mongol-history/assets/exhibit/music.webp",
+            "imageAlt": "Хөгжмийн хэрэгсэл",
+            "imageSourcePage": 8,
+            "width": 481,
+            "height": 271,
+            "imageStatus": "verified",
+            "details": [
+              "Морин хуур",
+              "Ятга",
+              "Хуучир"
+            ]
+          },
+          {
+            "id": "topic-4-section-0-item-6",
+            "label": "Шашин, зан үйлийн эд зүйлс",
+            "title": "Шашин, зан үйлийн эд зүйлс",
+            "description": "Бөө мөргөлийн хувцас, толь, хонх, хэц, бамбай зэргийг жагсаасан.",
+            "sourcePage": 8,
+            "sourcePages": [
+              8,
+              22
+            ],
+            "image": "/mongol-history/assets/exhibit/ritual.webp",
+            "imageAlt": "Шашин, зан үйлийн эд зүйлс",
+            "imageSourcePage": 8,
+            "width": 458,
+            "height": 271,
+            "imageStatus": "verified",
+            "details": [
+              "Бөө мөргөлийн хувцас",
+              "Толь",
+              "Хонх, хэц",
+              "Бамбай зэрэг"
+            ]
+          }
+        ],
+        "interactive": true,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-4-section-0",
+          "topic-7-section-2"
+        ]
+      },
+      {
+        "title": "Урлал ба хотын төвүүд",
+        "paragraphs": [],
+        "widget": {
+          "type": "cities",
+          "items": [
+            {
+              "title": "Чингай балгас",
+              "text": "Хүчирхэг цайз, тариалан ба хүнс нийлүүлэлтийн төв байсан; нийслэл биш гэж зурагт тайлбарласан."
+            },
+            {
+              "title": "Хархорум",
+              "text": "Орхоны хөндийд, өнөөгийн Өвөрхангай аймгийн Хархорин сум орчим. Өгэдэй хааны үед нийслэл болж, барилгын ажил 1235 он орчим дууссан гэж зурагт өгүүлсэн."
+            }
+          ]
+        },
+        "id": "topic-4-section-1",
+        "kind": "editorial",
+        "type": "cities",
+        "sourcePages": [
+          9
+        ],
+        "visual": {
+          "image": "/mongol-history/assets/exhibit/craft-city.webp",
+          "imageAlt": "XIII зууны Монголын хот, урлалын төвүүд",
+          "imageSourcePage": 9,
+          "width": 1383,
+          "height": 922
+        },
+        "items": [
+          {
+            "id": "topic-4-section-1-item-0",
+            "label": "Чингай балгас",
+            "title": "Чингай балгас",
+            "description": "Хүчирхэг цайз, тариалан ба хүнс нийлүүлэлтийн төв байсан; нийслэл биш гэж зурагт тайлбарласан.",
+            "sourcePage": 9,
+            "sourcePages": [
+              9
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-4-section-1-item-1",
+            "label": "Хархорум",
+            "title": "Хархорум",
+            "description": "Орхоны хөндийд, өнөөгийн Өвөрхангай аймгийн Хархорин сум орчим. Өгэдэй хааны үед нийслэл болж, барилгын ажил 1235 он орчим дууссан гэж зурагт өгүүлсэн. Хархорумын ордны урлалыг эхэд мөнгөн модны дүрслэлээр харуулсан.",
+            "sourcePage": 9,
+            "sourcePages": [
+              9
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          }
+        ],
+        "supplementaryVisuals": [],
+        "interactive": false,
+        "sourceSectionIds": [
+          "topic-4-section-1",
+          "topic-4-section-2"
+        ]
+      },
+      {
+        "title": "Урлалын бүтээгдэхүүн солилцоонд орох нь",
+        "paragraphs": [
+          "Энэ дүрслэлд тэрэг, бараа, худалдаачид, төлбөрийн хэрэгсэл харагдана. Урласан эд зүйл хэрэглэгчид хүрэхдээ тээвэр, худалдаатай холбогдож байгааг ажиглаж болно. Энэ нь дараагийн «Худалдаа, Торгоны зам» сэдэвтэй холбогдох дүрслэл юм."
+        ],
+        "layout": "editorial",
+        "image": "/assets/exhibit/exchange.webp",
+        "caption": "Бараа ба төлбөрийн солилцооны дүрслэл.",
+        "id": "topic-4-section-3",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          10
+        ],
+        "visual": {
+          "image": "/mongol-history/assets/exhibit/exchange.webp",
+          "imageAlt": "Бараа ба төлбөрийн солилцооны дүрслэл.",
+          "imageSourcePage": 10,
+          "width": 1080,
+          "height": 740
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-4-section-3"
+        ]
+      }
+    ]
+  },
+  {
+    "number": "05",
+    "title": "Худалдаа, Торгоны зам",
+    "sections": []
+  },
+  {
+    "number": "06",
+    "title": "Өртөө, зам харилцаа",
+    "sections": [
+      {
+        "title": "Өгэдэй хааны үеийн зохион байгуулалт",
+        "paragraphs": [
+          "Өгэдэй хааны үед өртөөний тогтолцоог өргөжүүлэн зохион байгуулжээ. Өртөө бүрд уналгын морь, хоол хүнс, хоноглох байр бэлтгэдэг байв.",
+          "30–40 км — Ойролцоо зай · газар нутгийн нөхцөлөөс хамаарна."
+        ],
+        "layout": "statement",
+        "statLabel": "Ойролцоо зай · газар нутгийн нөхцөлөөс хамаарна",
+        "id": "topic-6-section-0",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          16
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-6-section-0"
+        ]
+      },
+      {
+        "title": "Нэг мэдээ хэрхэн аялдаг вэ?",
+        "paragraphs": [
+          "Өртөөнөөс өртөө дамжин бэлтгэсэн морийг сольж унана. Зарим тохиолдолд мэдээ, бичиг баримтыг дараагийн өртөөний элчид шилжүүлдэг байжээ. Морио сольсноор нэг морийг хэт ядраахаас сэргийлнэ. Элч гэрэгээгээ үзүүлж, морь, хоол хүнс, хоноглох нөхцөл авах эрхээ батална."
+        ],
+        "widget": {
+          "type": "relay",
+          "items": [
+            {
+              "title": "Эрхээ батлах",
+              "text": "Элч гэрэгээгээ үзүүлж, албан үүрэг болон өртөөгөөр үйлчлүүлэх эрхээ танилцуулна."
+            },
+            {
+              "title": "Унаа, хангамж авах",
+              "text": "Өртөөнөөс бэлтгэсэн морь, хоол хүнс, хоноглох нөхцөл авна."
+            },
+            {
+              "title": "Морио солих",
+              "text": "Дараагийн өртөөнд хүрээд унааг сольж, нэг морийг хэт ядраахаас сэргийлнэ."
+            },
+            {
+              "title": "Мэдээг хүргэх",
+              "text": "Зарим үед бичиг баримтыг дараагийн элчид дамжуулж, холын зайд мэдээг тасралтгүй хүргэнэ."
+            }
+          ]
+        },
+        "id": "topic-6-section-1",
+        "kind": "editorial",
+        "type": "relay",
+        "sourcePages": [
+          16,
+          18
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-6-section-1"
+        ]
+      },
+      {
+        "title": "Гэрэгэ: эрхийг таних тэмдэг",
+        "paragraphs": [
+          "Гэрэгэ нь хааны зарлиг, эрх мэдлийг гэрчлэх пайз буюу тусгай тэмдэг. Албан ёсны элч үүнийг үзүүлснээр уналгын морь, хангамж авах эрхээ баталгаажуулдаг байв. Элчийн эрх мэдэл, албан үүргийг танихад чухал байжээ."
+        ],
+        "layout": "paiza",
+        "id": "topic-6-section-2",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          18
+        ],
+        "visual": {
+          "image": "/mongol-history/assets/exhibit/gerege.webp",
+          "imageAlt": "Гэрэгэ, элчийн эрх ба зам харилцааны тухай эхийн дүрслэл",
+          "imageSourcePage": 18,
+          "width": 620,
+          "height": 1023
+        },
+        "supplementaryVisuals": [],
+        "interactive": false,
+        "sourceSectionIds": [
+          "topic-6-section-2"
+        ]
+      },
+      {
+        "title": "Зам нэгтгэж, мэдээлэл холбов",
+        "paragraphs": [
+          "Өртөө нь зарлигийг орон нутагт хүргэх, алс нутгийн үйл явдлын мэдээг авах, цэрэг болон төрийн үйл ажиллагааг зохицуулахад чухал байв.",
+          "Худалдаачин, аялагчдын зорчих нөхцөлийг сайжруулж, бараа, мэдлэг, соёлын солилцоог дэмжсэн. Замын сүлжээний бүдүүвчид Хархорум, Даду, Киев, Самарканд, Багдад, Европ, Хятад зэрэг нэр болон олон чиглэлийн замыг дүрсэлжээ."
+        ],
+        "layout": "connections",
+        "id": "topic-6-section-3",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          17,
+          19
+        ],
+        "visual": {
+          "image": "/mongol-history/assets/exhibit/relay-network.webp",
+          "imageAlt": "Эх танилцуулга дахь өртөөний сүлжээний бүдүүвч",
+          "imageSourcePage": 17,
+          "width": 1376,
+          "height": 768
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-6-section-3"
+        ]
+      }
+    ]
+  },
+  {
+    "number": "07",
+    "title": "Эдийн соёл, өдөр тутмын ахуй",
+    "sections": [
+      {
+        "title": "Гэр: зөөврийн орон зай",
+        "paragraphs": [
+          "Эсгийн гэр нь хана, уни, тооно, эсгий бүрээс, олс, дарцгаас бүрдэнэ гэж эхэд жагсаасан. Хурдан буулгаж, ачиж, дахин босгох боломж нь улирлын нүүдэлд тохиромжтой.",
+          "Хаад, язгууртнууд том эсгий ордон, майхан хэрэглэдэг байв. Бүхэл гэрийг ачсан тэрэг буюу тэргэн гэрийн дүрслэл ч танилцуулгад бий."
+        ],
+        "widget": {
+          "type": "ger",
+          "items": [
+            {
+              "title": "Хоймор · хойд",
+              "text": "Хүндэтгэлийн орон зай."
+            },
+            {
+              "title": "Баруун тал",
+              "text": "Эрчүүдийн тал гэж танилцуулгад тайлбарласан."
+            },
+            {
+              "title": "Голомт · төв",
+              "text": "Галын тулга байрлах газар."
+            },
+            {
+              "title": "Зүүн тал",
+              "text": "Эмэгтэйчүүдийн тал гэж танилцуулгад тайлбарласан."
+            },
+            {
+              "title": "Хаалга · урд",
+              "text": "Хаалгыг урд зүгт харуулдаг гэж өгүүлсэн."
+            }
+          ]
+        },
+        "id": "topic-7-section-0",
+        "kind": "editorial",
+        "type": "ger",
+        "sourcePages": [
+          20,
+          21
+        ],
+        "visual": {
+          "image": "/mongol-history/assets/exhibit/ger-photo.webp",
+          "imageAlt": "Монгол гэрийн гэрэл зураг",
+          "imageSourcePage": 21,
+          "width": 960,
+          "height": 664
+        },
+        "items": [
+          {
+            "id": "topic-7-section-0-item-0",
+            "label": "Хоймор · хойд",
+            "title": "Хоймор · хойд",
+            "description": "Хүндэтгэлийн орон зай.",
+            "sourcePage": 20,
+            "sourcePages": [
+              20,
+              21
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-7-section-0-item-1",
+            "label": "Баруун тал",
+            "title": "Баруун тал",
+            "description": "Эрчүүдийн тал гэж танилцуулгад тайлбарласан.",
+            "sourcePage": 20,
+            "sourcePages": [
+              20,
+              21
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-7-section-0-item-2",
+            "label": "Голомт · төв",
+            "title": "Голомт · төв",
+            "description": "Галын тулга байрлах газар.",
+            "sourcePage": 20,
+            "sourcePages": [
+              20,
+              21
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-7-section-0-item-3",
+            "label": "Зүүн тал",
+            "title": "Зүүн тал",
+            "description": "Эмэгтэйчүүдийн тал гэж танилцуулгад тайлбарласан.",
+            "sourcePage": 20,
+            "sourcePages": [
+              20,
+              21
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-7-section-0-item-4",
+            "label": "Хаалга · урд",
+            "title": "Хаалга · урд",
+            "description": "Хаалгыг урд зүгт харуулдаг гэж өгүүлсэн.",
+            "sourcePage": 20,
+            "sourcePages": [
+              20,
+              21
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          }
+        ],
+        "supplementaryVisuals": [],
+        "interactive": false,
+        "sourceSectionIds": [
+          "topic-7-section-0"
+        ]
+      },
+      {
+        "title": "Дээл ба зэрэг дэв",
+        "paragraphs": [
+          "Үндсэн хувцас нь бүсэлдэг дээл. Морь унах, хүйтэнд амьдрахад тохиромжтой бөгөөд хонины арьс, эсгий, савхи, үслэг арьс хэрэглэдэг байв.",
+          "Байлдан дагуулалт, худалдаагаар торго, өнгөт хөвөн орж иржээ. Язгууртнууд торго, алтаар хатгасан даавуу, үслэг арьс өмсөж, хувцсаар зэрэг дэв ялгардаг байв. Гэрлэсэн язгууртан эмэгтэйчүүд өндөр оройтой бөгтөг өмсдөг гэж танилцуулгад өгүүлсэн.",
+          "Хятад, Төв Ази, Персээс гар урчууд, бараа таваар, загварын нөлөө орж ирэв. Хархорум гар урлал, худалдааны төв болжээ. Юань улсын үед Монгол заншил Хятадын хотын болон ордны соёлтой холилдсон гэж танилцуулгад дүгнэсэн."
+        ],
+        "layout": "artifact",
+        "image": "/assets/exhibit/robe.webp",
+        "caption": "Хувцасны музейн зураг.",
+        "id": "topic-7-section-1",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          20,
+          23
+        ],
+        "visual": {
+          "image": "/mongol-history/assets/exhibit/robe.webp",
+          "imageAlt": "Хувцасны музейн зураг.",
+          "imageSourcePage": 20,
+          "width": 1344,
+          "height": 896
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-7-section-1",
+          "topic-7-section-4"
+        ]
+      },
+      {
+        "title": "Ахуйн хэрэглэл",
+        "paragraphs": [
+          "Арьсан уут, модон авдар, ширээ, эсгий хивс, төмөр данх, айрагны хөхүүр."
+        ],
+        "layout": "comparison",
+        "id": "topic-7-section-2",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          22
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-7-section-2"
+        ]
+      },
+      {
+        "title": "Тээвэр ба өдөр тутмын ёс",
+        "paragraphs": [
+          ""
+        ],
+        "layout": "split",
+        "image": "/assets/exhibit/cart-ger.webp",
+        "caption": "Тэргэн гэрийн тайлбар дүрслэл.",
+        "items": [
+          {
+            "id": "topic-7-section-3-item-0",
+            "label": "Хөдөлгөөн",
+            "title": "Хөдөлгөөн",
+            "description": "Морь нь амьдрал, дайны гол хэрэгсэл; тэмээ, үхрийн тэрэг ачаа, гэрийн эд зүйлсийг зөөвөрлөнө.",
+            "sourcePage": 23,
+            "sourcePages": [
+              23
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": 20,
+            "width": 850,
+            "height": 560,
+            "imageStatus": "verified"
+          },
+          {
+            "id": "topic-7-section-3-item-1",
+            "label": "Голомт ба хүндлэл",
+            "title": "Голомт ба хүндлэл",
+            "description": "Галыг ариунд тооцож, босго гишгэх, голомтын галд ус асгахыг цээрлэнэ. Зочломтгой байх, ахмадыг хүндлэх, голомт ба хаалганы цээрийг баримтална.",
+            "sourcePage": 23,
+            "sourcePages": [
+              23
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-7-section-3-item-2",
+            "label": "Өрхийн оролцоо",
+            "title": "Өрхийн оролцоо",
+            "description": "Гэр бүл эцгийн эрхт боловч эмэгтэйчүүд гэрийн аж ахуй, мал сүрэгт нөлөөтэй байв. Хүүхдүүд багаасаа морь унах, сур харвах, мал маллахад суралцдаг байжээ.",
+            "sourcePage": 23,
+            "sourcePages": [
+              23
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          }
+        ],
+        "id": "topic-7-section-3",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          23
+        ],
+        "visual": {
+          "image": "/mongol-history/assets/exhibit/cart-ger.webp",
+          "imageAlt": "Тэргэн гэрийн тайлбар дүрслэл",
+          "imageSourcePage": 20,
+          "width": 850,
+          "height": 560
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-7-section-3"
+        ]
+      }
+    ]
+  },
+  {
+    "number": "08",
+    "title": "Бичиг үсэг, боловсрол",
+    "sections": [
+      {
+        "title": "Бичиг үсэг ба төрийн хэрэг",
+        "paragraphs": [],
+        "widget": {
+          "type": "scripts",
+          "items": [
+            {
+              "title": "Монгол бичиг",
+              "text": "Уйгар бичгийн нөлөөгөөр бүрэлдсэн. Монгол хэлний бичиг, төрийн зарлиг, захидал, захиргааны хэрэгт хэрэглэж байв.",
+              "image": "/assets/exhibit/mongol-script.webp",
+              "year": "1204 онтой холбон тайлбарласан"
+            },
+            {
+              "title": "Дөрвөлжин бичиг",
+              "text": "1269 онд Хубилай хааны зарлигаар албан ёсоор зарласан. Зохиогч нь Пагва лам Лодойжалцан. Төвд, брахми үсгийн тогтолцоонд тулгуурлаж, олон хэлний авиаг тэмдэглэх нэгдсэн бичиг болгох зорилготой.",
+              "image": "/assets/exhibit/phags-pa.webp",
+              "year": "1269 он"
+            }
+          ]
+        },
+        "id": "topic-8-section-1",
+        "kind": "category",
+        "type": "scripts",
+        "sourcePages": [
+          24,
+          26
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "items": [
+          {
+            "id": "topic-8-section-1-item-0",
+            "label": "Монгол бичиг",
+            "title": "Монгол бичиг",
+            "description": "Танилцуулгад 1204 онд Найман аймгийг дарахад уйгар гаралтай Тататунгаг олзлон авч, төрийн тамга, бичиг хэргийг хариуцуулсан гэж өгүүлдэг. Уйгаржин бичгийг монгол хэлэнд тохируулан хэрэглэж, бичиг үсэг зааснаар монгол бичгийн уламжлал бүрэлдсэнийг тайлбарласан. Хаадын зарлиг, дипломат захидал, захиргааны баримт, тамга, пайзын бичээс зэрэг нь төрийн бичгийн хэрэглээнд хамаарна.",
+            "sourcePage": 24,
+            "sourcePages": [
+              24
+            ],
+            "image": "/mongol-history/assets/exhibit/mongol-script.webp",
+            "imageAlt": "Монгол бичиг",
+            "imageSourcePage": 24,
+            "width": 595,
+            "height": 585,
+            "year": "1204 онтой холбон тайлбарласан",
+            "imageStatus": "verified"
+          },
+          {
+            "id": "topic-8-section-1-item-1",
+            "label": "Дөрвөлжин бичиг",
+            "title": "Дөрвөлжин бичиг",
+            "description": "1269 онд Хубилай хааны зарлигаар албан ёсоор зарласан. Зохиогч нь Пагва лам Лодойжалцан. Төвд, брахми үсгийн тогтолцоонд тулгуурлаж, олон хэлний авиаг тэмдэглэх нэгдсэн бичиг болгох зорилготой.",
+            "sourcePage": 26,
+            "sourcePages": [
+              26
+            ],
+            "image": "/mongol-history/assets/exhibit/phags-pa.webp",
+            "imageAlt": "Дөрвөлжин бичиг",
+            "imageSourcePage": 26,
+            "width": 504,
+            "height": 653,
+            "year": "1269 он",
+            "imageStatus": "verified"
+          }
+        ],
+        "interactive": true,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-8-section-1",
+          "topic-8-section-0"
+        ]
+      },
+      {
+        "title": "«Монголын нууц товчоо»",
+        "paragraphs": [
+          "1240 онд бичиж дуусгасан гэж үздэг. Тус бүтээлийн үнэ цэнийг гурван талаас тайлбарлажээ."
+        ],
+        "layout": "connections",
+        "items": [
+          {
+            "id": "topic-8-section-2-item-0",
+            "label": "Түүхийн сурвалж",
+            "title": "Түүхийн сурвалж",
+            "description": "Чингис хааны уг гарвал, Их Монгол Улс байгуулагдсан түүх, цэргийн бүтцийн тухай өгүүлнэ.",
+            "sourcePage": 25,
+            "sourcePages": [
+              25
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-8-section-2-item-1",
+            "label": "Уран зохиол, хэл шинжлэл",
+            "title": "Уран зохиол, хэл шинжлэл",
+            "description": "XIII зууны монгол хэлний бүтэц, үгийн сан, аман шүлэг, зүйр цэцэн үгийг хадгалсан.",
+            "sourcePage": 25,
+            "sourcePages": [
+              25
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-8-section-2-item-2",
+            "label": "Угсаатны зүй",
+            "title": "Угсаатны зүй",
+            "description": "Ахуй амьдрал, зан заншил, бөө мөргөл, шүүх цаазын ёсыг харуулсан.",
+            "sourcePage": 25,
+            "sourcePages": [
+              25
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          }
+        ],
+        "id": "topic-8-section-2",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          25
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-8-section-2"
+        ]
+      },
+      {
+        "title": "Сургалт, бүртгэл, орчуулга",
+        "paragraphs": [
+          "Ноёд, түшмэдийн хүүхдүүдийг багаас нь бичиг үсэг, цэргийн эрдэм, дипломат ёсонд сургадаг байв. Юань улсын үед академи, сургуулиуд ажиллаж, олон хэлний орчуулагч бэлтгэдэг гэж танилцуулгад өгүүлсэн.",
+          "Хүн амын тооллого, татварын бүртгэл хөтөлж, бичиг хэрэг төрийн удирдлагын нэг хэсэг болжээ. Эхэд Их Засгийг «Хөх дэвтэр»-т бичин хадгалсан гэж дурдсан."
+        ],
+        "layout": "editorial",
+        "id": "topic-8-section-3",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          25
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-8-section-3"
+        ]
+      }
+    ]
+  },
+  {
+    "number": "09",
+    "title": "Шинжлэх ухаан, шашин, соёлын солилцоо",
+    "sections": [
+      {
+        "title": "Мэдлэг ямар чиглэлд хөдөлсөн бэ?",
+        "paragraphs": [],
+        "widget": {
+          "type": "exchange",
+          "items": [
+            {
+              "title": "Дорноос Баруун руу",
+              "text": "Цаас, хэвлэх арга, дарь.",
+              "direction": "ДОРНО → БАРУУН"
+            },
+            {
+              "title": "Исламын ертөнцөөс Зүүн Ази руу",
+              "text": "Одон орон, математик, анагаах ухаан.",
+              "direction": "ИСЛАМЫН ЕРТӨНЦ → ЗҮҮН АЗИ"
+            }
+          ]
+        },
+        "id": "topic-9-section-0",
+        "kind": "editorial",
+        "type": "exchange",
+        "sourcePages": [
+          27
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "items": [
+          {
+            "id": "topic-9-section-0-item-0",
+            "label": "Дорноос Баруун руу",
+            "title": "Дорноос Баруун руу",
+            "description": "Цаас, хэвлэх арга, дарь.",
+            "sourcePage": 27,
+            "sourcePages": [
+              27
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "direction": "ДОРНО → БАРУУН",
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-9-section-0-item-1",
+            "label": "Исламын ертөнцөөс Зүүн Ази руу",
+            "title": "Исламын ертөнцөөс Зүүн Ази руу",
+            "description": "Одон орон, математик, анагаах ухаан.",
+            "sourcePage": 27,
+            "sourcePages": [
+              27
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "direction": "ИСЛАМЫН ЕРТӨНЦ → ЗҮҮН АЗИ",
+            "imageStatus": "text-only: no confidently matched source image"
+          }
+        ],
+        "supplementaryVisuals": [],
+        "interactive": false,
+        "sourceSectionIds": [
+          "topic-9-section-0"
+        ]
+      },
+      {
+        "title": "Марага: одон орны төв",
+        "paragraphs": [
+          "Ил хаант улсын Марага одон орны төв, эрдэмтэн Насир ад-Дин ат-Тусиг танилцуулгад онцолжээ. Перс, Араб, Хятадын одон оронч, эмч нарыг цуглуулж шинжлэх ухааныг хөгжүүлсэн гэж тайлбарладаг."
+        ],
+        "layout": "observatory",
+        "statLabel": "Насир ад-Дин ат-Туси · Ил хаант улс",
+        "id": "topic-9-section-1",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          27,
+          29
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-9-section-1"
+        ]
+      },
+      {
+        "title": "Хархорум дахь олон итгэл",
+        "paragraphs": [
+          "«Мөнх Тэнгэрийн хүчин дор» гэсэн үзлийг төрийн үзэл сурталтай холбон тайлбарласан. Хархорумд буддын, исламын, христийн несториан урсгалууд зэрэгцэн оршиж байсныг дурджээ.",
+          "1254 онд Мөнх хаан Хархорумд шашин хоорондын мэтгэлцээн зохион байгуулсан гэж танилцуулгад өгүүлсэн. Шашны бодлогыг олон уламжлал уулзсан орчинтой хамт авч үзнэ."
+        ],
+        "layout": "split",
+        "image": "/assets/exhibit/mongke.webp",
+        "caption": "Мөнх хааны хөрөг.",
+        "id": "topic-9-section-2",
+        "kind": "editorial",
+        "type": "beliefs",
+        "sourcePages": [
+          28
+        ],
+        "visual": {
+          "image": "/mongol-history/assets/exhibit/mongke.webp",
+          "imageAlt": "Мөнх хааны хөрөг.",
+          "imageSourcePage": 28,
+          "width": 558,
+          "height": 768
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-9-section-2"
+        ]
+      },
+      {
+        "title": "Соёлын солилцооны олон холбоос",
+        "paragraphs": [
+          "Төвөдөөс буддын шашин хүлээн авч, өртөөгөөр торго, цаас, дарь, луужин түгсэн гэж эхэд тайлбарласан."
+        ],
+        "layout": "editorial",
+        "image": "/assets/exhibit/silvertree-color.webp",
+        "caption": "Хархорумын ордны дүрслэл.",
+        "id": "topic-9-section-3",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          29
+        ],
+        "visual": {
+          "image": "/mongol-history/assets/exhibit/silvertree-color.webp",
+          "imageAlt": "Хархорумын ордны дүрслэл.",
+          "imageSourcePage": 29,
+          "width": 960,
+          "height": 673
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-9-section-3"
+        ]
+      }
+    ]
+  },
+  {
+    "number": "10",
+    "title": "Монголын эзэнт гүрний дэлхийд үлдээсэн өв",
+    "sections": [
+      {
+        "title": "Pax Mongolica — «Монголын энх тайван»",
+        "paragraphs": [
+          "Худалдааны замууд нэг нөлөөний хүрээнд орж, харилцаа тогтвортой болсон үеийг танилцуулгад энэ нэрээр тайлбарласан. Өртөө өргөжиж, торго, шаазан, үнэт металл болон мэдлэг солилцох боломж нэмэгдэв."
+        ],
+        "layout": "editorial",
+        "image": "/assets/exhibit/flock.webp",
+        "caption": "Тал нутаг дахь мал сүрэг.",
+        "id": "topic-10-section-0",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          30
+        ],
+        "visual": {
+          "image": "/mongol-history/assets/exhibit/flock.webp",
+          "imageAlt": "Тал нутаг дахь мал сүрэг.",
+          "imageSourcePage": 30,
+          "width": 993,
+          "height": 662
+        },
+        "supplementaryVisuals": [],
+        "interactive": false,
+        "sourceSectionIds": [
+          "topic-10-section-0"
+        ]
+      },
+      {
+        "title": "Холбоо тэлэхийн хоёр тал",
+        "paragraphs": [
+          "Хөдөлгөөн нэмэгдэх нь бараа, мэдлэг дамжихаас гадна сөрөг үр дагавартай байж болно. XIV зууны тахал тархахад нөлөөлсөн байж болзошгүй."
+        ],
+        "layout": "comparison",
+        "id": "topic-10-section-1",
+        "kind": "editorial",
+        "type": "categories",
+        "sourcePages": [
+          30
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "interactive": false,
+        "supplementaryVisuals": [],
+        "sourceSectionIds": [
+          "topic-10-section-1"
+        ]
+      },
+      {
+        "title": "Урлагт үлдсэн харилцан нөлөө",
+        "paragraphs": [
+          "Хятад, Перс, Төв Азийн урлаг, гар урлалын уламжлал харилцан нөлөөлжээ."
+        ],
+        "widget": {
+          "type": "legacy",
+          "items": [
+            {
+              "title": "Персийн уран зураг",
+              "text": "Хятадын луу, үүл, байгалийн дүрслэлийн нөлөө ажиглагдсан."
+            },
+            {
+              "title": "Хөх цагаан шаазан",
+              "text": "Юань улсын үед шаазангийн энэ урлаг өргөн дэлгэрсэн."
+            },
+            {
+              "title": "Алтан утас, торго",
+              "text": "Алтан утсаар нэхсэн тансаг торго, нэхмэл эдлэл язгууртнуудын хэрэглээнд чухал байв."
+            },
+            {
+              "title": "Уран барилга",
+              "text": "Хятад, Перс, Төв Азийн уламжлал харилцан нөлөөлж, шинэ хэв маяг бий болжээ."
+            }
+          ]
+        },
+        "id": "topic-10-section-2",
+        "kind": "editorial",
+        "type": "legacy",
+        "sourcePages": [
+          31
+        ],
+        "visual": {
+          "image": null,
+          "imageAlt": "",
+          "imageSourcePage": null
+        },
+        "items": [
+          {
+            "id": "topic-10-section-2-item-0",
+            "label": "Персийн уран зураг",
+            "title": "Персийн уран зураг",
+            "description": "Хятадын луу, үүл, байгалийн дүрслэлийн нөлөө ажиглагдсан.",
+            "sourcePage": 31,
+            "sourcePages": [
+              31
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-10-section-2-item-1",
+            "label": "Хөх цагаан шаазан",
+            "title": "Хөх цагаан шаазан",
+            "description": "Юань улсын үед шаазангийн энэ урлаг өргөн дэлгэрсэн.",
+            "sourcePage": 31,
+            "sourcePages": [
+              31
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-10-section-2-item-2",
+            "label": "Алтан утас, торго",
+            "title": "Алтан утас, торго",
+            "description": "Алтан утсаар нэхсэн тансаг торго, нэхмэл эдлэл язгууртнуудын хэрэглээнд чухал байв.",
+            "sourcePage": 31,
+            "sourcePages": [
+              31
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          },
+          {
+            "id": "topic-10-section-2-item-3",
+            "label": "Уран барилга",
+            "title": "Уран барилга",
+            "description": "Хятад, Перс, Төв Азийн уламжлал харилцан нөлөөлж, шинэ хэв маяг бий болжээ.",
+            "sourcePage": 31,
+            "sourcePages": [
+              31
+            ],
+            "image": null,
+            "imageAlt": "",
+            "imageSourcePage": null,
+            "imageStatus": "text-only: no confidently matched source image"
+          }
+        ],
+        "supplementaryVisuals": [],
+        "interactive": false,
+        "sourceSectionIds": [
+          "topic-10-section-2"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+/* Shared museum foundations. All rules are isolated from the 3D gallery. */
+#detail[data-exhibition="museum"]{
+ --serif:'Cormorant Garamond',Georgia,serif;--sans:'Manrope',Arial,sans-serif;
+ --reading-max:66ch;--touch-target:44px;
+ position:fixed;inset:0;z-index:12;overflow:hidden;background:var(--ink);
+}
+#detail[data-exhibition="museum"] .detail-scroll{
+ min-width:0;min-height:0;overflow-y:auto;overscroll-behavior:contain;
+}
+#detail[data-exhibition="museum"] :where(h1,h2,h3,p,figure,table,svg,div){min-inline-size:0}
+#detail[data-exhibition="museum"] img{display:block;max-inline-size:100%;block-size:auto;object-fit:contain}
+#detail[data-exhibition="museum"] .eyebrow{color:var(--gold);font-size:11px;letter-spacing:.14em}
+#detail[data-exhibition="museum"] .detail-hero,
+#detail[data-exhibition="museum"] .exhibit-content{margin-inline:auto}
+#detail[data-exhibition="museum"] .detail-hero{
+ display:grid;height:auto;min-height:0;max-height:none;padding-inline:0;overflow:visible;
+}
+#detail[data-exhibition="museum"] .hero-copy,
+#detail[data-exhibition="museum"] .hero-image{max-width:none}
+#detail[data-exhibition="museum"] .hero-date{display:block;line-height:1.8;letter-spacing:.1em}
+#detail[data-exhibition="museum"] .exhibit-section{display:grid;border-top:1px solid var(--line);align-items:start}
+#detail[data-exhibition="museum"] .section-body{container-type:inline-size}
+#detail[data-exhibition="museum"] .editorial-copy:empty{display:none}
+#detail[data-exhibition="museum"] .museum-footer{
+ position:static;height:auto;display:block;margin:0;inline-size:auto;
+}
+#detail[data-exhibition="museum"] :where(button,summary){touch-action:manipulation;min-height:44px}
+@media(max-width:896px){
+ #detail[data-exhibition="museum"] .detail-hero,
+ #detail[data-exhibition="museum"] .exhibit-section{grid-template-columns:minmax(0,1fr)}
+}

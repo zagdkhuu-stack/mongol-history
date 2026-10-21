@@ -28,7 +28,8 @@ The build is in `dist/`. Tests use Microsoft Edge on Windows, or Playwright Chro
 - Touch: swipe vertically or horizontally.
 - The topic index and numbered progress controls jump to any of the ten topics.
 - Click the focused screen or СЭДВИЙГ НЭЭХ to enter.
-- ← БҮХ СЭДЭВ, Escape, or browser Back returns to the same topic.
+- The МОНГОЛ ГҮРЭН logo or Escape returns to `#gallery`; browser Back restores the preceding route.
+- Section links and previous/next section buttons provide explicit navigation. Topic pages also scroll normally.
 - Topic URLs support direct links, for example `#topic/topic-8`.
 
 ## Structure
@@ -44,17 +45,17 @@ The build is in `dist/`. Tests use Microsoft Edge on Windows, or Playwright Chro
 
 ## Editorial and visual notes
 
-The Canva deck was not supplied. The bronze, charcoal and parchment palette is provisional. CSS theme tokens are at the top of style.css; 3D material colors are in src/theme.js.
+The supplied 32-page PDF «Монгол гүрний аж ахуй, соёл. 4-р баг.» is the content reference. All ten topics use the museum renderer, preserving the original 39-section structure. See [the completion report](docs/museum-completion.md) for source decisions and validation.
 
 Existing images are contemporary illustrative reconstructions, not archival evidence. Their origin and licensing were not supplied. The reading pages label them accordingly. The central pavilion is an original architectural interpretation, not an archaeological reconstruction.
 
-Reading pages link to the university and museum references used for their introductory summaries. Specific gaps in farming, hunting, relay distances, household artifacts and Karakorum archaeology remain explicitly marked rather than being filled with invented data. The original Karakorum topic has been retained within topic 10, which follows the requested cultural-legacy title.
+Source page references accompany museum illustrations and each topic footer. `src/museum-source-topics.js` retains the original content; `src/museum-exhibition-data.js` adapts its presentation. Source illustrations with no matching artifact photograph remain clearly contextual; unsupported images are not added. Responsive renditions live under `public/assets/exhibit/responsive`.
 
 The experience works without WebGL via its perspective CSS3D screen layer, with the architectural mesh omitted. Reduced motion removes transition delays. The camera pauses while a reading page is open. Rendering caps pixel density at 1.6; distant screens are culled and images are lazy-loaded. Google Fonts is optional; local serif and sans-serif fallbacks remain available.
 
 ## Validation
 
-Playwright covers wheel limits, spatial screen entry, all ten articles, independent article scrolling, return-state restoration, browser Back, mobile touch input, deep links and reduced motion. A visual preview is saved in gallery-preview.png; screenshots are development artifacts and are not part of the production build.
+With the development server running, `npm test` checks all 39 sections and selector states at seven desktop, tablet and mobile sizes, plus all ten gallery entries, keyboard controls, touch selection, browser history, image inspection and observer cleanup. Review screenshots are under `research/final-review`; these are not shipped in the production build. Legacy renderer checks remain in `tests.spec.js` for reference; the current suite is `museum-transfer.spec.js`.
 
 ## GitHub Pages deployment
 

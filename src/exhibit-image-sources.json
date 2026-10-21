@@ -1,0 +1,657 @@
+{
+  "/assets/exhibit/ger-steppe.webp": {
+    "sourcePages": [
+      2
+    ],
+    "archivedRaw": "p02-63.png",
+    "verification": "embedded-image SHA-256",
+    "width": 847,
+    "height": 338,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/ger-steppe-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/farm.webp": {
+    "sourcePages": [
+      6
+    ],
+    "archivedRaw": "p06-147.png",
+    "verification": "embedded-image SHA-256",
+    "width": 883,
+    "height": 732,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/farm-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/wood.webp": {
+    "sourcePages": [
+      8
+    ],
+    "archivedRaw": "p09-227.png",
+    "verification": "embedded-image SHA-256",
+    "width": 344,
+    "height": 248
+  },
+  "/assets/exhibit/leather.webp": {
+    "sourcePages": [
+      8
+    ],
+    "archivedRaw": "p09-230.png",
+    "verification": "embedded-image SHA-256",
+    "width": 344,
+    "height": 248
+  },
+  "/assets/exhibit/metal.webp": {
+    "sourcePages": [
+      8
+    ],
+    "archivedRaw": "p09-233.png",
+    "verification": "embedded-image SHA-256",
+    "width": 366,
+    "height": 248
+  },
+  "/assets/exhibit/textile.webp": {
+    "sourcePages": [
+      8
+    ],
+    "archivedRaw": "p09-236.png",
+    "verification": "embedded-image SHA-256",
+    "width": 344,
+    "height": 248
+  },
+  "/assets/exhibit/jewelry.webp": {
+    "sourcePages": [
+      8
+    ],
+    "archivedRaw": "p09-239.png",
+    "verification": "embedded-image SHA-256",
+    "width": 481,
+    "height": 271,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/jewelry-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/music.webp": {
+    "sourcePages": [
+      8
+    ],
+    "archivedRaw": "p09-243.png",
+    "verification": "embedded-image SHA-256",
+    "width": 481,
+    "height": 271,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/music-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/ritual.webp": {
+    "sourcePages": [
+      8
+    ],
+    "archivedRaw": "p09-246.png",
+    "verification": "embedded-image SHA-256",
+    "width": 458,
+    "height": 271
+  },
+  "/assets/exhibit/silver-tree.webp": {
+    "sourcePages": [
+      9
+    ],
+    "archivedRaw": "p10-288.jpeg",
+    "verification": "embedded-image SHA-256",
+    "width": 1080,
+    "height": 862,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/silver-tree-480.webp",
+        "width": 480
+      },
+      {
+        "image": "/assets/exhibit/responsive/silver-tree-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/assets/exhibit/exchange.webp": {
+    "sourcePages": [
+      10
+    ],
+    "archivedRaw": "p11-306.jpeg",
+    "verification": "embedded-image SHA-256",
+    "width": 1080,
+    "height": 740,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/exchange-480.webp",
+        "width": 480
+      },
+      {
+        "image": "/assets/exhibit/responsive/exchange-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/assets/exhibit/hunting.webp": {
+    "sourcePages": [
+      20,
+      21
+    ],
+    "archivedRaw": "p21-424.png",
+    "verification": "embedded-image SHA-256",
+    "width": 960,
+    "height": 708,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/hunting-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/cart-ger.webp": {
+    "sourcePages": [
+      20,
+      21
+    ],
+    "archivedRaw": "p21-425.jpeg",
+    "verification": "embedded-image SHA-256",
+    "width": 850,
+    "height": 560,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/cart-ger-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/robe.webp": {
+    "sourcePages": [
+      20,
+      21
+    ],
+    "archivedRaw": "p21-426.jpeg",
+    "verification": "embedded-image SHA-256",
+    "width": 1344,
+    "height": 896,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/robe-480.webp",
+        "width": 480
+      },
+      {
+        "image": "/assets/exhibit/responsive/robe-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/assets/exhibit/ger-photo.webp": {
+    "sourcePages": [
+      21
+    ],
+    "archivedRaw": "p22-433.jpeg",
+    "verification": "embedded-image SHA-256",
+    "width": 960,
+    "height": 664,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/ger-photo-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/mongol-script.webp": {
+    "sourcePages": [
+      24
+    ],
+    "archivedRaw": "p25-489.png",
+    "verification": "embedded-image SHA-256",
+    "width": 595,
+    "height": 585,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/mongol-script-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/phags-pa.webp": {
+    "sourcePages": [
+      26
+    ],
+    "archivedRaw": "p27-518.png",
+    "verification": "embedded-image SHA-256",
+    "width": 504,
+    "height": 653,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/phags-pa-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/mongke.webp": {
+    "sourcePages": [
+      28
+    ],
+    "archivedRaw": "p29-568.jpeg",
+    "verification": "embedded-image SHA-256",
+    "width": 558,
+    "height": 768,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/mongke-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/silvertree-color.webp": {
+    "sourcePages": [
+      29
+    ],
+    "archivedRaw": "p30-581.jpeg",
+    "verification": "embedded-image SHA-256",
+    "width": 960,
+    "height": 673,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/silvertree-color-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/steppe.webp": {
+    "sourcePages": [
+      30
+    ],
+    "archivedRaw": "p31-587.png",
+    "verification": "embedded-image SHA-256",
+    "width": 1400,
+    "height": 788,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/steppe-480.webp",
+        "width": 480
+      },
+      {
+        "image": "/assets/exhibit/responsive/steppe-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/assets/exhibit/flock.webp": {
+    "sourcePages": [
+      30
+    ],
+    "archivedRaw": "p31-2390.jpeg",
+    "verification": "embedded-image SHA-256",
+    "width": 993,
+    "height": 662,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/flock-480.webp",
+        "width": 480
+      },
+      {
+        "image": "/assets/exhibit/responsive/flock-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/assets/exhibit/riders.webp": {
+    "sourcePages": [
+      31
+    ],
+    "archivedRaw": "p32-622.png",
+    "verification": "embedded-image SHA-256",
+    "width": 1400,
+    "height": 1050,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/riders-480.webp",
+        "width": 480
+      },
+      {
+        "image": "/assets/exhibit/responsive/riders-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/assets/exhibit/herders.webp": {
+    "sourcePages": [
+      31
+    ],
+    "archivedRaw": "p32-2468.jpeg",
+    "verification": "embedded-image SHA-256",
+    "width": 1008,
+    "height": 672,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/herders-480.webp",
+        "width": 480
+      },
+      {
+        "image": "/assets/exhibit/responsive/herders-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/assets/exhibit/spring.webp": {
+    "sourcePages": [
+      4
+    ],
+    "verification": "verified seasonal quadrants from page 4; research/prepare-assets.py",
+    "width": 423,
+    "height": 282
+  },
+  "/assets/exhibit/summer.webp": {
+    "sourcePages": [
+      4
+    ],
+    "verification": "verified seasonal quadrants from page 4; research/prepare-assets.py",
+    "width": 423,
+    "height": 282
+  },
+  "/assets/exhibit/autumn.webp": {
+    "sourcePages": [
+      4
+    ],
+    "verification": "verified seasonal quadrants from page 4; research/prepare-assets.py",
+    "width": 423,
+    "height": 282
+  },
+  "/assets/exhibit/winter.webp": {
+    "sourcePages": [
+      4
+    ],
+    "verification": "verified seasonal quadrants from page 4; research/prepare-assets.py",
+    "width": 423,
+    "height": 282
+  },
+  "/assets/exhibit/relay-network.webp": {
+    "sourcePages": [
+      17
+    ],
+    "verification": "largest embedded image on source page 17; schematic from the source, not a verified route map",
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/relay-network-480.webp",
+        "width": 480
+      },
+      {
+        "image": "/assets/exhibit/responsive/relay-network-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/assets/exhibit/livestock.webp": {
+    "sourcePages": [
+      3
+    ],
+    "verification": "embedded image from current source PDF",
+    "xref": 1452,
+    "width": 846,
+    "height": 564,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/livestock-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/hunting-source.webp": {
+    "sourcePages": [
+      5
+    ],
+    "verification": "embedded image from current source PDF",
+    "xref": 110,
+    "width": 864,
+    "height": 638,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/hunting-source-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/dairy-food.webp": {
+    "sourcePages": [
+      7
+    ],
+    "verification": "embedded image from current source PDF",
+    "xref": 181,
+    "width": 672,
+    "height": 447,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/dairy-food-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/preserved-meat.webp": {
+    "sourcePages": [
+      7
+    ],
+    "verification": "embedded image from current source PDF",
+    "xref": 182,
+    "width": 672,
+    "height": 495,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/preserved-meat-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/craft-city.webp": {
+    "sourcePages": [
+      9
+    ],
+    "verification": "embedded image from current source PDF",
+    "xref": 283,
+    "width": 1383,
+    "height": 922,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/craft-city-480.webp",
+        "width": 480
+      },
+      {
+        "image": "/assets/exhibit/responsive/craft-city-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/assets/exhibit/gerege.webp": {
+    "sourcePages": [
+      18
+    ],
+    "verification": "embedded image from current source PDF",
+    "xref": 403,
+    "width": 620,
+    "height": 1023,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/gerege-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/science-exchange.webp": {
+    "sourcePages": [
+      27
+    ],
+    "verification": "embedded image from current source PDF",
+    "xref": 2254,
+    "width": 745,
+    "height": 496,
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/science-exchange-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/pdf-details/topic-02/page-04-figure-01.png": {
+    "sourcePages": [
+      4
+    ],
+    "width": 846,
+    "height": 564,
+    "verification": "Visually reviewed complete seasonal illustration on current PDF page 4"
+  },
+  "/assets/exhibit/sheep.webp": {
+    "sourcePages": [
+      3
+    ],
+    "xref": 1452,
+    "width": 423,
+    "height": 270,
+    "crop": [
+      0,
+      0,
+      423,
+      270
+    ],
+    "verification": "Embedded source illustration; crop reviewed separately from slide text"
+  },
+  "/assets/exhibit/goat.webp": {
+    "sourcePages": [
+      3
+    ],
+    "xref": 1452,
+    "width": 423,
+    "height": 270,
+    "crop": [
+      423,
+      0,
+      846,
+      270
+    ],
+    "verification": "Embedded source illustration; crop reviewed separately from slide text"
+  },
+  "/assets/exhibit/cattle.webp": {
+    "sourcePages": [
+      3
+    ],
+    "xref": 1452,
+    "width": 255,
+    "height": 294,
+    "crop": [
+      0,
+      270,
+      255,
+      564
+    ],
+    "verification": "Embedded source illustration; crop reviewed separately from slide text"
+  },
+  "/assets/exhibit/horse.webp": {
+    "sourcePages": [
+      3
+    ],
+    "xref": 1452,
+    "width": 335,
+    "height": 274,
+    "crop": [
+      255,
+      290,
+      590,
+      564
+    ],
+    "verification": "Embedded source illustration; crop reviewed separately from slide text"
+  },
+  "/assets/exhibit/camel.webp": {
+    "sourcePages": [
+      3
+    ],
+    "xref": 1452,
+    "width": 256,
+    "height": 294,
+    "crop": [
+      590,
+      270,
+      846,
+      564
+    ],
+    "verification": "Embedded source illustration; crop reviewed separately from slide text"
+  },
+  "/assets/exhibit/trade-caravan.webp": {
+    "sourcePages": [
+      12
+    ],
+    "xref": 315,
+    "width": 864,
+    "height": 648,
+    "crop": null,
+    "verification": "Embedded source illustration; crop reviewed separately from slide text",
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/trade-caravan-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/trade-goods.webp": {
+    "sourcePages": [
+      13
+    ],
+    "xref": 338,
+    "width": 677,
+    "height": 508,
+    "crop": null,
+    "verification": "Embedded source illustration; crop reviewed separately from slide text",
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/trade-goods-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/assets/exhibit/closing-landscape.webp": {
+    "sourcePages": [
+      32
+    ],
+    "xref": 2522,
+    "width": 2400,
+    "height": 1600,
+    "crop": null,
+    "verification": "Embedded source illustration; crop reviewed separately from slide text",
+    "variants": [
+      {
+        "image": "/assets/exhibit/responsive/closing-landscape-480.webp",
+        "width": 480
+      },
+      {
+        "image": "/assets/exhibit/responsive/closing-landscape-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/assets/exhibit/gerege-detail.webp": {
+    "sourcePages": [
+      18
+    ],
+    "xref": 403,
+    "width": 391,
+    "height": 323,
+    "crop": [
+      24,
+      445,
+      415,
+      768
+    ],
+    "verification": "Embedded source illustration; crop reviewed separately from slide text"
+  }
+}

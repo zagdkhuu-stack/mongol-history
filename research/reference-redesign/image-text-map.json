@@ -1,0 +1,831 @@
+[
+  {
+    "topic": "01",
+    "section": "Монгол гүрний түүхэн орчин",
+    "sourcePages": [
+      2
+    ],
+    "image": "/mongol-history/assets/exhibit/ger-steppe.webp",
+    "alt": "Түүхэн танилцуулгын эх дэх гэрийн зураг",
+    "status": "source section illustration"
+  },
+  {
+    "topic": "01",
+    "section": "Түүхэн үе шат",
+    "sourcePages": [
+      2
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "01",
+    "section": "Түүхэн үе шат",
+    "item": "1206",
+    "sourcePages": [
+      2
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "01",
+    "section": "Түүхэн үе шат",
+    "item": "XIII–XIV зуун",
+    "sourcePages": [
+      2
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "01",
+    "section": "Түүхэн ач холбогдол",
+    "sourcePages": [
+      2
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "01",
+    "section": "Түүхэн ач холбогдол",
+    "item": "Улс төр",
+    "sourcePages": [
+      2
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "01",
+    "section": "Түүхэн ач холбогдол",
+    "item": "Эдийн засаг",
+    "sourcePages": [
+      2
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "01",
+    "section": "Түүхэн ач холбогдол",
+    "item": "Худалдаа",
+    "sourcePages": [
+      2
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "01",
+    "section": "Түүхэн ач холбогдол",
+    "item": "Соёл",
+    "sourcePages": [
+      2
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "02",
+    "section": "Нүүдлийн амьдрал",
+    "sourcePages": [
+      3,
+      4
+    ],
+    "image": "/mongol-history/assets/exhibit/livestock.webp",
+    "alt": "Эхийн таван хошуу малын зураг",
+    "status": "source section illustration"
+  },
+  {
+    "topic": "02",
+    "section": "Таван хошуу мал",
+    "sourcePages": [
+      3,
+      7,
+      20,
+      23
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "02",
+    "section": "Таван хошуу мал",
+    "item": "Хонь",
+    "sourcePages": [
+      3,
+      7,
+      20,
+      23
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "02",
+    "section": "Таван хошуу мал",
+    "item": "Ямаа",
+    "sourcePages": [
+      3,
+      7,
+      20,
+      23
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "02",
+    "section": "Таван хошуу мал",
+    "item": "Үхэр",
+    "sourcePages": [
+      3,
+      7,
+      20,
+      23
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "02",
+    "section": "Таван хошуу мал",
+    "item": "Адуу",
+    "sourcePages": [
+      3,
+      7,
+      20,
+      23
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "02",
+    "section": "Таван хошуу мал",
+    "item": "Тэмээ",
+    "sourcePages": [
+      3,
+      7,
+      20,
+      23
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "02",
+    "section": "Улирлын нүүдэл",
+    "sourcePages": [
+      4
+    ],
+    "image": "/mongol-history/assets/pdf-details/topic-02/page-04-figure-01.png",
+    "alt": "Хавар, зун, намар, өвлийн эхийн дөрвөн дүрслэл",
+    "status": "source section illustration"
+  },
+  {
+    "topic": "03",
+    "section": "Ан агнуур",
+    "sourcePages": [
+      5
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "03",
+    "section": "Ан агнуур",
+    "item": "Морьтой ан",
+    "sourcePages": [
+      5
+    ],
+    "imageSourcePage": 5,
+    "image": "/mongol-history/assets/exhibit/hunting-source.webp",
+    "alt": "Морьтой ан авын эхийн дүрслэл",
+    "status": "verified source association"
+  },
+  {
+    "topic": "03",
+    "section": "Ан агнуур",
+    "item": "Хамтын ан",
+    "sourcePages": [
+      5
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "03",
+    "section": "Ан агнуур",
+    "item": "Ангийн хэрэгсэл",
+    "sourcePages": [
+      5
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "03",
+    "section": "Газар тариалан",
+    "sourcePages": [
+      6
+    ],
+    "image": "/mongol-history/assets/exhibit/farm.webp",
+    "alt": "Эхийн газар тариалангийн дүрслэл",
+    "status": "source section illustration"
+  },
+  {
+    "topic": "03",
+    "section": "Хүнсний аж ахуй",
+    "sourcePages": [
+      7,
+      22
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "03",
+    "section": "Хүнсний аж ахуй",
+    "item": "Малын мах",
+    "sourcePages": [
+      7,
+      22
+    ],
+    "imageSourcePage": 7,
+    "image": "/mongol-history/assets/exhibit/preserved-meat.webp",
+    "alt": "Гэрт мах хатааж, хүнс нөөцөлж буй байдал",
+    "status": "verified source association"
+  },
+  {
+    "topic": "03",
+    "section": "Хүнсний аж ахуй",
+    "item": "Сүү, сүүн бүтээгдэхүүн",
+    "sourcePages": [
+      7,
+      22
+    ],
+    "imageSourcePage": 7,
+    "image": "/mongol-history/assets/exhibit/dairy-food.webp",
+    "alt": "Сүү, цагаан идээ болон хүнсний хэрэглэл",
+    "status": "verified source association"
+  },
+  {
+    "topic": "03",
+    "section": "Хүнсний аж ахуй",
+    "item": "Ангийн мах",
+    "sourcePages": [
+      7,
+      22
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "03",
+    "section": "Хүнсний аж ахуй",
+    "item": "Үр тариа, гурил",
+    "sourcePages": [
+      7,
+      22
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "03",
+    "section": "Хүнсний аж ахуй",
+    "item": "Зэрлэг ургамал",
+    "sourcePages": [
+      7,
+      22
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "04",
+    "section": "Урлал ба өдөр тутмын хэрэглээ",
+    "sourcePages": [
+      8,
+      9
+    ],
+    "image": "/mongol-history/assets/exhibit/silver-tree.webp",
+    "alt": "Хархорумын ордны мөнгөн модны эхийн дүрслэл",
+    "status": "source section illustration"
+  },
+  {
+    "topic": "04",
+    "section": "Долоон төрлийн урлал",
+    "sourcePages": [
+      8,
+      22
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "04",
+    "section": "Долоон төрлийн урлал",
+    "item": "Модон эдлэл",
+    "sourcePages": [
+      8,
+      22
+    ],
+    "imageSourcePage": 8,
+    "image": "/mongol-history/assets/exhibit/wood.webp",
+    "alt": "Модон эдлэл",
+    "status": "verified source association"
+  },
+  {
+    "topic": "04",
+    "section": "Долоон төрлийн урлал",
+    "item": "Арьс ширэн эдлэл",
+    "sourcePages": [
+      8,
+      22
+    ],
+    "imageSourcePage": 8,
+    "image": "/mongol-history/assets/exhibit/leather.webp",
+    "alt": "Арьс ширэн эдлэл",
+    "status": "verified source association"
+  },
+  {
+    "topic": "04",
+    "section": "Долоон төрлийн урлал",
+    "item": "Металл эдлэл",
+    "sourcePages": [
+      8,
+      22
+    ],
+    "imageSourcePage": 8,
+    "image": "/mongol-history/assets/exhibit/metal.webp",
+    "alt": "Металл эдлэл",
+    "status": "verified source association"
+  },
+  {
+    "topic": "04",
+    "section": "Долоон төрлийн урлал",
+    "item": "Нэхмэл, эсгий эдлэл",
+    "sourcePages": [
+      8,
+      22
+    ],
+    "imageSourcePage": 8,
+    "image": "/mongol-history/assets/exhibit/textile.webp",
+    "alt": "Нэхмэл, эсгий эдлэл",
+    "status": "verified source association"
+  },
+  {
+    "topic": "04",
+    "section": "Долоон төрлийн урлал",
+    "item": "Гоёл чимэглэл",
+    "sourcePages": [
+      8,
+      22
+    ],
+    "imageSourcePage": 8,
+    "image": "/mongol-history/assets/exhibit/jewelry.webp",
+    "alt": "Гоёл чимэглэл",
+    "status": "verified source association"
+  },
+  {
+    "topic": "04",
+    "section": "Долоон төрлийн урлал",
+    "item": "Хөгжмийн хэрэгсэл",
+    "sourcePages": [
+      8,
+      22
+    ],
+    "imageSourcePage": 8,
+    "image": "/mongol-history/assets/exhibit/music.webp",
+    "alt": "Хөгжмийн хэрэгсэл",
+    "status": "verified source association"
+  },
+  {
+    "topic": "04",
+    "section": "Долоон төрлийн урлал",
+    "item": "Шашин, зан үйлийн эд зүйлс",
+    "sourcePages": [
+      8,
+      22
+    ],
+    "imageSourcePage": 8,
+    "image": "/mongol-history/assets/exhibit/ritual.webp",
+    "alt": "Шашин, зан үйлийн эд зүйлс",
+    "status": "verified source association"
+  },
+  {
+    "topic": "04",
+    "section": "Үйлдвэрлэл, хотын төвүүд",
+    "sourcePages": [
+      9,
+      10
+    ],
+    "image": "/mongol-history/assets/exhibit/craft-city.webp",
+    "alt": "Чингай балгас, Хархорумын тухай эхийн зураг",
+    "status": "source section illustration"
+  },
+  {
+    "topic": "06",
+    "section": "Өртөөний тогтолцоо",
+    "sourcePages": [
+      16,
+      17
+    ],
+    "image": "/mongol-history/assets/exhibit/relay-network.webp",
+    "alt": "Эх танилцуулгын өртөөний сүлжээний бүдүүвч",
+    "status": "source section illustration"
+  },
+  {
+    "topic": "06",
+    "section": "Элч хэрхэн зорчдог байв?",
+    "sourcePages": [
+      16,
+      18
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "06",
+    "section": "Элч хэрхэн зорчдог байв?",
+    "item": "Эрхээ батлах",
+    "sourcePages": [
+      18
+    ],
+    "imageSourcePage": 18,
+    "image": "/mongol-history/assets/exhibit/gerege.webp",
+    "alt": "Гэрэгэ, элчийн эрхийн тухай эхийн дүрслэл",
+    "status": "verified source association"
+  },
+  {
+    "topic": "06",
+    "section": "Элч хэрхэн зорчдог байв?",
+    "item": "Унаа, хангамж авах",
+    "sourcePages": [
+      16
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "06",
+    "section": "Элч хэрхэн зорчдог байв?",
+    "item": "Морио солих",
+    "sourcePages": [
+      16
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "06",
+    "section": "Элч хэрхэн зорчдог байв?",
+    "item": "Мэдээг хүргэх",
+    "sourcePages": [
+      16
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "06",
+    "section": "Зам харилцааны ач холбогдол",
+    "sourcePages": [
+      19
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "07",
+    "section": "Гэр ба өдөр тутмын амьдрал",
+    "sourcePages": [
+      20,
+      21
+    ],
+    "image": "/mongol-history/assets/exhibit/ger-photo.webp",
+    "alt": "Эхийн монгол гэрийн гэрэл зураг",
+    "status": "source section illustration"
+  },
+  {
+    "topic": "07",
+    "section": "Эд зүйлс ба материал",
+    "sourcePages": [
+      20,
+      22
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "07",
+    "section": "Эд зүйлс ба материал",
+    "item": "Хувцас",
+    "sourcePages": [
+      20
+    ],
+    "imageSourcePage": 20,
+    "image": "/mongol-history/assets/exhibit/robe.webp",
+    "alt": "Эхийн музейн хувцасны зураг",
+    "status": "verified source association"
+  },
+  {
+    "topic": "07",
+    "section": "Эд зүйлс ба материал",
+    "item": "Ахуйн хэрэглэл",
+    "sourcePages": [
+      22
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "07",
+    "section": "Эд зүйлс ба материал",
+    "item": "Дархны бүтээл",
+    "sourcePages": [
+      22
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "07",
+    "section": "Тээвэр, ёс заншил",
+    "sourcePages": [
+      20,
+      23
+    ],
+    "image": "/mongol-history/assets/exhibit/cart-ger.webp",
+    "alt": "Эхийн тэргэн гэрийн дүрслэл",
+    "status": "source section illustration"
+  },
+  {
+    "topic": "08",
+    "section": "Бичгийн соёл",
+    "sourcePages": [
+      24
+    ],
+    "image": "/mongol-history/assets/exhibit/mongol-script.webp",
+    "alt": "Эхийн монгол бичгийн дүрслэл",
+    "status": "source section illustration"
+  },
+  {
+    "topic": "08",
+    "section": "Бичгийн дурсгалууд",
+    "sourcePages": [
+      25,
+      26
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "08",
+    "section": "Бичгийн дурсгалууд",
+    "item": "Дөрвөлжин бичиг",
+    "sourcePages": [
+      26
+    ],
+    "imageSourcePage": 26,
+    "image": "/mongol-history/assets/exhibit/phags-pa.webp",
+    "alt": "Дөрвөлжин бичиг",
+    "status": "verified source association"
+  },
+  {
+    "topic": "08",
+    "section": "Бичгийн дурсгалууд",
+    "item": "«Монголын нууц товчоо»",
+    "sourcePages": [
+      25
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "08",
+    "section": "Боловсрол, мэдлэгийн солилцоо",
+    "sourcePages": [
+      25,
+      27
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "09",
+    "section": "Эрдэмтдийн харилцаа",
+    "sourcePages": [
+      29
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "09",
+    "section": "Шашны харилцаа",
+    "sourcePages": [
+      28
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "09",
+    "section": "Шашны харилцаа",
+    "item": "Мөнх Тэнгэр",
+    "sourcePages": [
+      28
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "09",
+    "section": "Шашны харилцаа",
+    "item": "Зэрэгцэн орших итгэл",
+    "sourcePages": [
+      28
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "09",
+    "section": "Шашны харилцаа",
+    "item": "Шашны бодлого",
+    "sourcePages": [
+      28
+    ],
+    "imageSourcePage": 28,
+    "image": "/mongol-history/assets/exhibit/mongke.webp",
+    "alt": "Шашны бодлогын тухай эхийн 28-р хуудсан дахь тайлбар хөрөг",
+    "status": "source-context; portrait identity is not independently asserted"
+  },
+  {
+    "topic": "09",
+    "section": "Соёлын солилцоо",
+    "sourcePages": [
+      29
+    ],
+    "image": "/mongol-history/assets/exhibit/silvertree-color.webp",
+    "alt": "Соёлын солилцооны тухай эхийн 29-р хуудсан дахь ордны дүрслэл",
+    "status": "source section illustration"
+  },
+  {
+    "topic": "10",
+    "section": "Дэлхийд үлдээсэн нөлөө",
+    "sourcePages": [
+      30
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "10",
+    "section": "Түүхэн өвийн олон тал",
+    "sourcePages": [
+      30,
+      31
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  },
+  {
+    "topic": "10",
+    "section": "Түүхэн өвийн олон тал",
+    "item": "Персийн уран зураг",
+    "sourcePages": [
+      31
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "10",
+    "section": "Түүхэн өвийн олон тал",
+    "item": "Хөх цагаан шаазан",
+    "sourcePages": [
+      31
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "10",
+    "section": "Түүхэн өвийн олон тал",
+    "item": "Алтан утас, торго",
+    "sourcePages": [
+      31
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "10",
+    "section": "Түүхэн өвийн олон тал",
+    "item": "Уран барилга",
+    "sourcePages": [
+      31
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "10",
+    "section": "Түүхэн өвийн олон тал",
+    "item": "Харилцааны эрсдэл",
+    "sourcePages": [
+      30
+    ],
+    "imageSourcePage": null,
+    "image": null,
+    "alt": "",
+    "status": "text-only: no matching source illustration"
+  },
+  {
+    "topic": "10",
+    "section": "Евразийн хамтын өв",
+    "sourcePages": [
+      31
+    ],
+    "image": null,
+    "alt": "",
+    "status": "text-only"
+  }
+]

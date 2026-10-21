@@ -1,0 +1,259 @@
+/* Copied foundations are scoped exclusively to the museum article. */
+/* The gallery palette/fonts are unchanged. Editorial breakpoints are 60rem and
+   the 42rem section-body container; gallery breakpoints remain in gallery.css. */
+#detail[data-exhibition="museum"] {
+  --ink: #100f0d;
+  --panel: #171511;
+  --paper: #e3d5b9;
+  --gold: #b99b65;
+  --muted: #aaa08c;
+  --red: #6d302b;
+  --line: #b99b6538;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans: 'Manrope', Arial, sans-serif;
+  --content-max: 1400px;
+  --reading-max: 66ch;
+  --gutter: clamp(1.375rem, 4vw, 4rem);
+  --grid-gap: clamp(1.5rem, 4vw, 4rem);
+  --section-space: clamp(2.75rem, 5vw, 5rem);
+  --space-1: .5rem;
+  --space-2: .75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --text-title: clamp(3rem, 2rem + 2.25vw, 4.5rem);
+  --text-heading: clamp(2.25rem, 1.8rem + 1vw, 3.25rem);
+  --text-subheading: clamp(1.75rem, 1.4rem + .7vw, 2.25rem);
+  --text-body: clamp(1.0625rem, .98rem + .16vw, 1.1875rem);
+  --text-secondary: clamp(.875rem, .8rem + .15vw, 1rem);
+  --text-label: clamp(.6875rem, .65rem + .08vw, .8125rem);
+  --nav-space: clamp(.625rem, 1vw, 1rem);
+  --touch-target: 44px;
+}
+
+/* Navigation occupies its own row. Only .detail-scroll scrolls, so content can
+   never pass under the back button, even when a heading is scrolled into view. */
+#detail[data-exhibition="museum"] {
+  position: fixed;
+  inset: 0;
+  z-index: 12;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  background: var(--ink);
+  opacity: 0;
+  transform: scale(1.025);
+  transition: opacity .6s, transform .7s;
+}
+.detail-open #detail[data-exhibition="museum"] { opacity: 1; transform: none; }
+#detail[data-exhibition="museum"] .detail-nav {
+  padding-block: calc(var(--nav-space) + env(safe-area-inset-top, 0px)) var(--nav-space);
+  border-bottom: 1px solid var(--line);
+  background: var(--ink);
+}
+#detail[data-exhibition="museum"] .detail-nav-inner, #detail[data-exhibition="museum"] .detail-hero, #detail[data-exhibition="museum"] .exhibit-content {
+  inline-size: min(calc(100% - 2 * var(--gutter)), var(--content-max));
+  margin-inline: auto;
+}
+#detail[data-exhibition="museum"] .back-control {
+  position: static;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-block-size: var(--touch-target);
+  padding: .5rem 0;
+  color: var(--gold);
+  font-size: 1.375rem;
+}
+#detail[data-exhibition="museum"] .back-control span { font-size: var(--text-label); letter-spacing: .12em; }
+#detail[data-exhibition="museum"] .back-control:hover { color: var(--paper); }
+#detail[data-exhibition="museum"] .detail-scroll {
+  min-inline-size: 0;
+  min-block-size: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scroll-padding-block: var(--space-5);
+  scrollbar-color: #76603f var(--ink);
+}
+#detail[data-exhibition="museum"] :where(h1,h2,h3,p,figure,table,svg,div) { min-inline-size: 0; }
+#detail[data-exhibition="museum"] :where(h1,h2,h3,p,td,th,button,figcaption) { overflow-wrap: break-word; }
+#detail[data-exhibition="museum"] :where(p,td,th) { line-height: 1.85; }
+#detail[data-exhibition="museum"] img { display: block; max-inline-size: 100%; block-size: auto; object-fit: contain; }
+#detail[data-exhibition="museum"] .eyebrow { color: var(--gold); font-size: var(--text-label); letter-spacing: .14em; }
+#detail[data-exhibition="museum"] .detail-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  align-items: center;
+  gap: var(--grid-gap);
+  padding-block: var(--section-space);
+}
+#detail[data-exhibition="museum"] .hero-copy { grid-column: 1; grid-row: 1; }
+#detail[data-exhibition="museum"] .hero-image { grid-column: 2; grid-row: 1; display: grid; place-items: center; }
+#detail[data-exhibition="museum"] .hero-image img { inline-size: auto; max-block-size: 42rem; filter: saturate(.65) brightness(.8); }
+#detail[data-exhibition="museum"] .hero-copy h1 {
+  margin: var(--space-4) 0;
+  color: #d6bb83;
+  font: 400 var(--text-title)/1.08 var(--serif);
+  letter-spacing: -.02em;
+  text-wrap: balance;
+}
+#detail[data-exhibition="museum"] .hero-copy > p { max-inline-size: var(--reading-max); margin: 0; color: #d3c8b3; font-size: var(--text-body); }
+#detail[data-exhibition="museum"] .hero-date { display: block; margin-block-start: var(--space-4); color: var(--muted); font-size: var(--text-label); letter-spacing: .1em; line-height: 1.8; }
+#detail[data-exhibition="museum"] .exhibit-section {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 7fr);
+  gap: var(--grid-gap);
+  align-items: start;
+  border-top: 1px solid var(--line);
+  padding-block: var(--section-space);
+}
+#detail[data-exhibition="museum"] .section-heading h2 {
+  margin: var(--space-4) 0 0;
+  color: var(--gold);
+  font: 400 var(--text-heading)/1.12 var(--serif);
+  text-wrap: balance;
+}
+#detail[data-exhibition="museum"] .section-number { display: flex; align-items: center; gap: var(--space-3); font-size: var(--text-label); letter-spacing: .1em; color: var(--gold); }
+#detail[data-exhibition="museum"] .section-number:before { content: ''; inline-size: 5px; block-size: 5px; background: var(--red); transform: rotate(45deg); }
+#detail[data-exhibition="museum"] .section-body { container-type: inline-size; }
+#detail[data-exhibition="museum"] .section-body > * + * { margin-block-start: var(--space-5); }
+#detail[data-exhibition="museum"] .editorial-copy:empty { display: none; }
+#detail[data-exhibition="museum"] .editorial-copy > p { max-inline-size: var(--reading-max); margin: 0; color: #c2b9a7; font-size: var(--text-body); }
+#detail[data-exhibition="museum"] .editorial-copy > p + p { margin-block-start: var(--space-4); }
+#detail[data-exhibition="museum"] .fact-group { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: var(--space-5); }
+#detail[data-exhibition="museum"] .fact { border-top: 1px solid var(--line); padding-block-start: var(--space-4); }
+#detail[data-exhibition="museum"] .fact h3 { margin: 0 0 var(--space-3); color: var(--paper); font: 500 var(--text-subheading)/1.16 var(--serif); }
+#detail[data-exhibition="museum"] .fact p { margin: 0; max-inline-size: var(--reading-max); color: #c2b9a7; font-size: var(--text-body); }
+#detail[data-exhibition="museum"] .section-figure { margin-inline: 0; margin-block-end: 0; }
+#detail[data-exhibition="museum"] .section-figure img { inline-size: auto; max-block-size: 38rem; margin-inline: auto; }
+#detail[data-exhibition="museum"] .section-figure figcaption { max-inline-size: var(--reading-max); padding-block-start: var(--space-3); color: var(--muted); font-size: var(--text-secondary); line-height: 1.7; }
+#detail[data-exhibition="museum"] .historical-stat { border-bottom: 1px solid var(--line); padding-block-end: var(--space-4); }
+#detail[data-exhibition="museum"] .historical-stat > span { display: block; color: var(--gold); font: 400 clamp(2.5rem,5cqi,4.5rem)/1.15 var(--serif); }
+#detail[data-exhibition="museum"] .historical-stat > small { display: block; margin-block-start: var(--space-3); color: var(--muted); font-size: var(--text-secondary); line-height: 1.7; }
+#detail[data-exhibition="museum"] .table-wrap { max-inline-size: 100%; }
+#detail[data-exhibition="museum"] table { inline-size: 100%; border-collapse: collapse; table-layout: fixed; text-align: left; }
+#detail[data-exhibition="museum"] :where(th,td) { padding: var(--space-4) var(--space-3); border-bottom: 1px solid var(--line); vertical-align: top; font-size: var(--text-body); }
+#detail[data-exhibition="museum"] thead th { border-top: 1px solid var(--line); color: var(--gold); font-size: var(--text-secondary); font-weight: 500; }
+#detail[data-exhibition="museum"] th:first-child { inline-size: 30%; }
+#detail[data-exhibition="museum"] tbody th { color: var(--paper); font-weight: 500; }
+#detail[data-exhibition="museum"] td { color: #c2b9a7; }
+#detail[data-exhibition="museum"] .paiza-composition { inline-size: min(100%, 12rem); margin-inline: auto; display: flex; flex-direction: column; align-items: center; gap: var(--space-4); padding: var(--space-5); border: 1px solid var(--gold); border-radius: 30px 30px 5px 5px; background: linear-gradient(100deg,#3f3523,#76603b 50%,#3f3523); }
+#detail[data-exhibition="museum"] .paiza-hole { inline-size: 15px; block-size: 15px; border-radius: 50%; background: var(--ink); border: 1px solid var(--gold); }
+#detail[data-exhibition="museum"] .paiza-rule { inline-size: 90px; border-top: 1px solid #b99b6580; }
+#detail[data-exhibition="museum"] .paiza-word { color: #e1cba0; text-align: center; font: 500 1.5rem/1.7 var(--serif); }
+#detail[data-exhibition="museum"] .observatory { display: block; inline-size: min(100%,28rem); margin-inline: auto; color: var(--gold); fill: none; stroke: currentColor; stroke-width: .6; }
+#detail[data-exhibition="museum"] .observatory .star { fill: var(--gold); }
+/* Reveal by opacity only: transforms must not move the layout's heading boundary. */
+#detail[data-exhibition="museum"] [data-reveal] { opacity: 0; transition: opacity .6s; }
+#detail[data-exhibition="museum"] [data-reveal].revealed { opacity: 1; }
+@media(max-width:60rem) {
+  #detail[data-exhibition="museum"] { --grid-gap: clamp(1.5rem,3vw,2.5rem); }
+  #detail[data-exhibition="museum"] .detail-hero { grid-template-columns: minmax(0,1.2fr) minmax(0,1fr); }
+}
+@media(max-width:56rem) {
+  #detail[data-exhibition="museum"] .exhibit-section, #detail[data-exhibition="museum"] .detail-hero { grid-template-columns: minmax(0,1fr); }
+  #detail[data-exhibition="museum"] .hero-copy, #detail[data-exhibition="museum"] .hero-image { grid-column: auto; grid-row: auto; }
+  #detail[data-exhibition="museum"] .hero-image { order: 2; }
+  #detail[data-exhibition="museum"] .hero-image img { max-block-size: 30rem; }
+  #detail[data-exhibition="museum"] .section-heading h2 { margin-block-start: var(--space-3); }
+}
+@container(max-width:42rem) {
+  #detail[data-exhibition="museum"] .fact-group { grid-template-columns: minmax(0,1fr); gap: var(--space-4); }
+}
+@media(prefers-reduced-motion:reduce) { #detail[data-exhibition="museum"] [data-reveal] { opacity: 1; } }
+
+/* Learning controls inherit the same editorial type and spacing scale. */
+#detail[data-exhibition="museum"] .learning { color: var(--paper); }
+#detail[data-exhibition="museum"] .learning-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: var(--space-1) var(--space-3);
+  padding-block-end: var(--space-3);
+  border-bottom: 1px solid var(--line);
+  margin-block-end: var(--space-5);
+}
+#detail[data-exhibition="museum"] .learning-controls button {
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--space-1);
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  min-block-size: var(--touch-target);
+  padding: .75rem .25rem;
+  border-bottom: 2px solid transparent;
+  color: var(--muted);
+  font-size: var(--text-secondary);
+  line-height: 1.6;
+  text-align: start;
+}
+#detail[data-exhibition="museum"] .learning-controls button > span { flex-shrink: 0; color: #9e8965; font-size: var(--text-label); }
+#detail[data-exhibition="museum"] .learning-controls button[aria-selected=true] { color: var(--paper); border-color: var(--gold); }
+#detail[data-exhibition="museum"] .learning-controls button[aria-selected=true] > span { color: var(--gold); }
+#detail[data-exhibition="museum"] .learning-controls button:hover { color: var(--paper); }
+#detail[data-exhibition="museum"] .learning-stage { display: grid; gap: var(--space-5); }
+#detail[data-exhibition="museum"] .learning-panels { overflow-anchor: none; }
+#detail[data-exhibition="museum"] .learning-panels [role=tabpanel] { outline-offset: 8px; }
+#detail[data-exhibition="museum"] .learning-panels h3 { margin: 0 0 var(--space-3); color: var(--gold); font: 400 var(--text-subheading)/1.16 var(--serif); }
+#detail[data-exhibition="museum"] .panel-copy p { max-inline-size: var(--reading-max); margin: 0; color: #c2b9a7; font-size: var(--text-body); }
+#detail[data-exhibition="museum"] .panel-copy .eyebrow { display: block; margin-block-end: var(--space-3); }
+#detail[data-exhibition="museum"] .learning figure { display: grid; place-items: center; margin: 0; }
+#detail[data-exhibition="museum"] .learning figure img { inline-size: auto; max-block-size: 28rem; }
+#detail[data-exhibition="museum"] .learning-artifacts [role=tabpanel], #detail[data-exhibition="museum"] .learning-scripts [role=tabpanel] {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  align-items: center;
+  gap: var(--space-5);
+}
+#detail[data-exhibition="museum"] .learning-artifacts figure { background: #070706; padding: var(--space-3); }
+#detail[data-exhibition="museum"] .learning-scripts figure { background: #b99b6505; padding: var(--space-4); }
+#detail[data-exhibition="museum"] .learning-seasons .learning-stage { grid-template-columns: minmax(0,.7fr) minmax(0,1.3fr); align-items: start; }
+#detail[data-exhibition="museum"] .learning-seasons [role=tabpanel] { display: grid; gap: var(--space-4); }
+#detail[data-exhibition="museum"] .season-orbit { inline-size: min(100%,16rem); margin-inline: auto; color: var(--gold); }
+#detail[data-exhibition="museum"] .season-orbit svg { display: block; inline-size: 100%; }
+#detail[data-exhibition="museum"] .season-orbit text { font: 15px var(--sans); fill: var(--muted); letter-spacing: .06em; }
+#detail[data-exhibition="museum"] .learning :where(.trade-map,.relay-route,.ger-plan,.exchange-flow) { display: block; inline-size: 100%; max-inline-size: 100%; color: var(--gold); }
+#detail[data-exhibition="museum"] .trade-map .land { fill: #b99b650b; stroke: #b99b6555; stroke-width: 1; }
+#detail[data-exhibition="museum"] .route-line { fill: none; stroke: currentColor; stroke-width: 1; stroke-dasharray: 4 8; opacity: .75; }
+#detail[data-exhibition="museum"] .route-node { fill: currentColor; opacity: .7; transition: opacity .3s; }
+#detail[data-exhibition="museum"] .route-node text { fill: var(--muted); font: 18px var(--sans); letter-spacing: .02em; }
+#detail[data-exhibition="museum"] .route-node .node-halo { fill: transparent; stroke: currentColor; stroke-width: 1; opacity: .6; }
+#detail[data-exhibition="museum"] .route-node.selected, #detail[data-exhibition="museum"] .learning svg [data-node]:hover { opacity: 1; }
+#detail[data-exhibition="museum"] .route-node.selected .node-halo { fill: #b99b6525; stroke: var(--gold); }
+#detail[data-exhibition="museum"] .route-node.selected text { fill: var(--paper); }
+#detail[data-exhibition="museum"] .learning svg [data-node] { cursor: pointer; }
+#detail[data-exhibition="museum"] .learning-trade .learning-panels, #detail[data-exhibition="museum"] .learning-ger .learning-panels { border-top: 1px solid var(--line); padding-block-start: var(--space-4); }
+#detail[data-exhibition="museum"] .relay-route .route-node > path { fill: var(--ink); stroke: currentColor; stroke-width: 1; }
+#detail[data-exhibition="museum"] .courier { color: #d8b877; transition: transform .7s; fill: currentColor; }
+#detail[data-exhibition="museum"] .courier path { fill: none; stroke: currentColor; stroke-width: 2; }
+#detail[data-exhibition="museum"] .relay-actions { display: flex; justify-content: space-between; align-items: center; gap: var(--space-3); margin-block-start: var(--space-4); padding-block-start: var(--space-3); border-top: 1px solid var(--line); }
+#detail[data-exhibition="museum"] .relay-actions button { inline-size: 48px; min-block-size: 48px; border: 1px solid var(--line); font-size: 1.5rem; }
+#detail[data-exhibition="museum"] .relay-actions span { color: var(--gold); font-size: var(--text-secondary); }
+#detail[data-exhibition="museum"] .ger-plan { max-inline-size: 34rem !important; margin-inline: auto; }
+#detail[data-exhibition="museum"] .ger-plan text { fill: var(--muted); font: 18px var(--sans); }
+#detail[data-exhibition="museum"] .ger-plan .plan-line { fill: none; stroke: currentColor; stroke-width: 1; opacity: .2; }
+#detail[data-exhibition="museum"] .exchange-flow text { fill: var(--muted); font: 18px var(--sans); letter-spacing: .04em; }
+#detail[data-exhibition="museum"] .exchange-flow .route-node { opacity: .3; }
+#detail[data-exhibition="museum"] .exchange-flow .route-node.selected { opacity: 1; }
+#detail[data-exhibition="museum"] .learning-legacy .learning-panels, #detail[data-exhibition="museum"] .learning-timeline .learning-panels { border-left: 1px solid var(--red); padding-inline-start: var(--space-4); }
+#detail[data-exhibition="museum"] .learning-timeline .learning-controls { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: var(--space-1); }
+#detail[data-exhibition="museum"] .learning-timeline .learning-controls button { display: block; position: relative; text-align: center; font: 400 clamp(1.375rem,3cqi,1.875rem)/1.4 var(--serif); }
+#detail[data-exhibition="museum"] .learning-timeline .learning-controls button > span { display: none; }
+#detail[data-exhibition="museum"] .learning-timeline .learning-controls button:after { content: ''; display: block; margin: .5rem auto 0; inline-size: 5px; block-size: 5px; background: var(--muted); transform: rotate(45deg); }
+#detail[data-exhibition="museum"] .learning-timeline .learning-controls button[aria-selected=true]:after { background: var(--gold); }
+@container(max-width:42rem) {
+  #detail[data-exhibition="museum"] .learning-artifacts [role=tabpanel], #detail[data-exhibition="museum"] .learning-scripts [role=tabpanel], #detail[data-exhibition="museum"] .learning-seasons .learning-stage { grid-template-columns: minmax(0,1fr); }
+  #detail[data-exhibition="museum"] .learning-seasons .season-orbit { inline-size: min(60%,13rem); }
+  #detail[data-exhibition="museum"] .learning-timeline .learning-controls { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  #detail[data-exhibition="museum"] .route-node text, #detail[data-exhibition="museum"] .exchange-flow text { font-size: 30px; }
+  #detail[data-exhibition="museum"] .ger-plan .route-node text { font-size: 22px; }
+}
+
+
+/* Integration with Copy's existing full-bleed hero and fixed masthead. */
+#detail[data-exhibition="museum"]{overflow:hidden;--red:#6d302b}
+#detail[data-exhibition="museum"] .detail-hero{height:auto;min-height:0;max-height:none;padding-inline:0;overflow:visible}
+#detail[data-exhibition="museum"] .hero-copy{max-width:none}
+#detail[data-exhibition="museum"] .hero-image{max-width:none}
+#detail[data-exhibition="museum"] .museum-footer{position:static;height:auto;display:block;margin:0;inline-size:auto}
+#detail[data-exhibition="museum"] :where(button,summary){touch-action:manipulation;min-height:44px}

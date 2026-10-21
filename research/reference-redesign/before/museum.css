@@ -1,0 +1,79 @@
+/* Museum detail pages only. The gallery and Topic 05 keep their own styles. */
+#detail[data-exhibition="museum"]{
+ --ink:#0d0c0b;--paper:#e8e1d5;--gold:#b79a61;--muted:#c4bdb1;--line:rgba(183,154,97,.25);
+ --gutter:clamp(22px,5vw,72px);--grid-gap:32px;--section-space:48px;
+ --text-body:clamp(16px,1.1vw,18px);--text-title:clamp(38px,4vw,60px);--text-heading:clamp(28px,3vw,38px);--text-subheading:28px;
+ color:var(--paper);background:var(--ink);transform:none;transition:none;
+}
+#detail[data-exhibition] :where(h1,h2,h3,p,button,dt,dd,figcaption){overflow-wrap:break-word;hyphens:none}
+#detail[data-exhibition] .detail-nav{padding:0;min-block-size:88px;background:var(--ink)}
+#detail[data-exhibition] .detail-scroll{scroll-padding-block:24px;scrollbar-color:var(--gold) var(--ink)}
+#detail[data-exhibition] .detail-hero,#detail[data-exhibition] .exhibit-content{inline-size:min(calc(100% - 2 * var(--gutter)),1200px)}
+#detail[data-exhibition] .detail-hero{padding-block:24px 48px;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:32px}
+#detail[data-exhibition] .hero-copy h1{font:400 var(--text-title)/1.12 var(--serif);color:var(--paper);margin:16px 0;letter-spacing:-.02em}
+#detail[data-exhibition] .hero-copy>p{font-size:var(--text-body);color:var(--muted);line-height:1.7}
+#detail[data-exhibition] .hero-date{font-size:12px;color:var(--gold);margin-top:16px}
+#detail[data-exhibition] .hero-image img{max-block-size:380px;filter:saturate(.72) brightness(.86)}
+#detail[data-exhibition] .exhibit-section{grid-template-columns:minmax(0,1fr);gap:24px;padding-block:48px;min-height:0}
+#detail[data-exhibition] .section-heading h2{font:400 var(--text-heading)/1.18 var(--serif);color:var(--paper);margin:0;text-wrap:balance}
+#detail[data-exhibition] .section-body>*+*{margin-block-start:24px}
+#detail[data-exhibition] .editorial-copy p{font-size:var(--text-body);line-height:1.7;color:var(--muted);max-inline-size:75ch;margin:0}
+#detail[data-exhibition] .editorial-copy p+p{margin-block-start:16px}
+#detail[data-exhibition] .editorial-exhibit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:32px;align-items:start}
+#detail[data-exhibition] .editorial-exhibit>.editorial-copy{grid-column:2}
+#detail[data-exhibition] .exhibit-notes{margin:0;display:grid;gap:16px}
+#detail[data-exhibition] .editorial-copy p+.exhibit-notes{margin-top:20px}
+#detail[data-exhibition] .exhibit-notes dt{font:500 var(--text-body)/1.7 var(--sans);color:var(--gold)}
+#detail[data-exhibition] .exhibit-notes dd{margin:2px 0 0;font-size:var(--text-body);line-height:1.7;color:var(--muted);max-width:75ch}
+#detail[data-exhibition] .learning-controls{display:flex;flex-wrap:wrap;gap:8px 24px;padding-bottom:16px;margin:0 0 24px;border-bottom:1px solid var(--line)}
+#detail[data-exhibition] .learning-controls button{display:inline-flex;align-items:baseline;gap:10px;min-height:44px;max-width:100%;padding:8px 0;font:400 14px/1.6 var(--sans);text-align:left;color:var(--muted);border-bottom:1px solid transparent}
+#detail[data-exhibition] .learning-controls button>span{color:var(--gold);font-size:12px}
+#detail[data-exhibition] .learning-controls button[aria-selected=true]{color:var(--paper);border-bottom-color:var(--gold)}
+#detail[data-exhibition] .learning-stage{display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
+#detail[data-exhibition] .learning-stage.has-context-visual{grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);align-items:center}
+#detail[data-exhibition] .learning-panels{display:grid;overflow-anchor:none;border:0;padding:0}
+#detail[data-exhibition] .learning-panels>[role=tabpanel]{display:grid;grid-area:1/1;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:32px;align-items:center;opacity:1;visibility:visible;transition:none;transform:none}
+#detail[data-exhibition] .learning-panels>[role=tabpanel][hidden]{display:grid!important;visibility:hidden;pointer-events:none;opacity:0}
+#detail[data-exhibition] .learning-panels>.text-only{grid-template-columns:minmax(0,1fr);align-self:start}
+#detail[data-exhibition] .panel-copy{transition:none;opacity:1}
+#detail[data-exhibition] .panel-copy h3{font:400 var(--text-subheading)/1.2 var(--serif);color:var(--gold);margin:0 0 16px}
+#detail[data-exhibition] .panel-copy p{font-size:var(--text-body);line-height:1.7;color:var(--muted);margin:0;max-width:65ch}
+#detail[data-exhibition] .artifact-details{margin:0;padding-left:20px;font-size:var(--text-body);line-height:1.7;color:var(--muted)}
+#detail[data-exhibition] .artifact-details li+li{margin-top:4px}
+#detail[data-exhibition] .artifact-details li::marker{color:var(--gold)}
+#detail[data-exhibition] .exhibit-visual{margin:0;min-inline-size:0;max-inline-size:100%}
+#detail[data-exhibition] .learning figure{padding:0;background:none}
+#detail[data-exhibition] .exhibit-visual img{display:block;inline-size:auto;max-inline-size:100%;max-block-size:360px;block-size:auto;object-fit:contain;margin:auto;transition:none}
+#detail[data-exhibition] .image-inspect{display:block;position:relative;width:min(100%,var(--native-width),calc(360px * var(--image-ratio)));max-width:100%;padding:0;margin:auto;cursor:zoom-in}
+#detail[data-exhibition] .image-inspect img{inline-size:100%;max-block-size:none}
+#detail[data-exhibition] .exhibit-visual figcaption{margin-top:8px;color:var(--muted);font-size:12px;line-height:1.6;opacity:.7}
+#detail[data-exhibition] .museum-footer{padding-block:24px 40px;border-top:1px solid var(--line)}
+#detail[data-exhibition] .museum-source{font-size:12px;color:var(--muted);line-height:1.7}
+#detail[data-exhibition] .museum-topic-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:24px}
+#detail[data-exhibition] .museum-topic-links button{padding:16px 0;text-align:left;font:400 22px/1.3 var(--serif)}
+#detail[data-exhibition] .museum-topic-links button>span{display:block;font:400 12px/1.7 var(--sans);color:var(--gold);margin-bottom:8px}
+#detail[data-exhibition] .document-viewer{width:min(1100px,calc(100% - 32px));max-width:calc(100% - 32px);max-height:calc(100svh - 32px);padding:24px;border:1px solid var(--line);background:var(--ink);color:var(--paper);overflow:hidden}
+#detail[data-exhibition] .document-viewer::backdrop{background:#000c}
+#detail[data-exhibition] .document-viewer header{display:flex;justify-content:space-between;align-items:start;gap:24px}
+#detail[data-exhibition] .document-viewer h2{font:400 clamp(24px,3vw,36px)/1.2 var(--serif);margin:0}
+#detail[data-exhibition] .document-viewer button{min-width:44px;min-height:44px;color:var(--gold)}
+#detail[data-exhibition] .viewer-controls{display:flex;gap:16px;align-items:center;padding-block:12px}
+#detail[data-exhibition] .document-image-wrap{overflow:auto;max-height:calc(100svh - 220px)}
+#detail[data-exhibition] .document-image-wrap img{width:calc(var(--document-zoom,1) * 100%);max-width:none;height:auto}
+@container(max-width:620px){
+ #detail[data-exhibition] .editorial-exhibit,#detail[data-exhibition] .learning-stage.has-context-visual,#detail[data-exhibition] .learning-panels>[role=tabpanel]{grid-template-columns:minmax(0,1fr);gap:20px}
+ #detail[data-exhibition] .editorial-exhibit>.exhibit-visual,#detail[data-exhibition] .editorial-exhibit>.editorial-copy{grid-column:auto;grid-row:auto}
+}
+@media(max-width:767px){
+ #detail[data-exhibition]{--text-subheading:26px;--text-heading:30px}
+ #detail[data-exhibition] .detail-hero{grid-template-columns:minmax(0,1fr);padding-bottom:32px;gap:24px}
+ #detail[data-exhibition] .hero-copy,#detail[data-exhibition] .hero-image{grid-column:auto;grid-row:auto}
+ #detail[data-exhibition] .hero-image img{max-height:280px}
+ #detail[data-exhibition] .exhibit-section{padding-block:32px;gap:20px}
+ #detail[data-exhibition] .image-inspect{width:min(100%,var(--native-width),calc(260px * var(--image-ratio)))}
+ #detail[data-exhibition] .exhibit-visual img{max-block-size:260px}
+ #detail[data-exhibition] .image-inspect img{max-block-size:none}
+ #detail[data-exhibition] .learning-controls{gap:8px 18px}
+ #detail[data-exhibition] .museum-topic-links{grid-template-columns:minmax(0,1fr)}
+ #detail[data-exhibition] .document-viewer{padding:16px}
+}
