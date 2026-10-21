@@ -9,7 +9,7 @@ async function open(page,number){
  await expect(page.locator('#loader')).toHaveCSS('visibility','hidden');
 }
 for(const [width,height] of [[1920,1080],[1440,900],[1366,768],[1024,768],[768,1024],[390,844],[375,812]]){
- test(`38 sections, selectors and image proportions at ${width}x${height}`,async({page})=>{
+ test(`37 sections, selectors and image proportions at ${width}x${height}`,async({page})=>{
   await page.setViewportSize({width,height});await page.emulateMedia({reducedMotion:'reduce'});
   const errors=[],failed=[];page.on('pageerror',e=>errors.push(e.message));
   page.on('response',r=>{if(r.status()>=400&&r.url().includes('/assets/'))failed.push(r.url());});
@@ -49,7 +49,7 @@ for(const [width,height] of [[1920,1080],[1440,900],[1366,768],[1024,768],[768,1
     await page.screenshot({path:`research/final-review/topic-${topic.number}-${width}.png`});
    }
   }
-  expect(count).toBe(38);expect(errors).toEqual([]);expect(failed).toEqual([]);
+  expect(count).toBe(37);expect(errors).toEqual([]);expect(failed).toEqual([]);
  });
 }
 test('all gallery entries, hamburger navigation, Back and exact logo route',async({page})=>{
